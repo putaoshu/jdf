@@ -1,0 +1,39 @@
+{
+  "name": "jdf",
+  "description": "jdf fe tool",
+  "version": "1.1.5",
+  "author": {
+    "name": "jdf",
+    "email": "-"
+  },
+  "homepage": "-",
+  "keywords": [
+    "jdf"
+  ],
+  "license": "MIT",
+  "bin": {
+    "jdf": "bin/jdf"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "main": "jdf.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "-"
+  },
+  "preferGlobal": true,
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "node-watch": "0.3.4",
+    "tar": "0.1.19",
+    "uglify-js": "2.4.12",
+    "clean-css": "2.1.0",
+    "ftp": "0.3.6",
+    "node-sass": "0.8.1",
+    "less": "1.3.3"
+  }
+}
