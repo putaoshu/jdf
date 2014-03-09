@@ -15,12 +15,9 @@ var compress = require('../lib/compress.js');
 /**
 * @jdf.compressJs
 */
-console.log('\n\n');
-console.log('compress js');
-// console.log(compress.js('./lib/js1.js'));
-console.log('\n\n');
+// console.log('compress js');
 console.log(compress.js('./lib/js1.js'));
-
+// console.log(compress.js('./lib/js3.js'));
 
 /**
 * @f.copy
@@ -52,3 +49,10 @@ function upload(){
 	});
 }
 //upload();
+
+/**
+* @upload
+*/
+
+// console.log(jdf.staticUrlReplace(f.read('./lib/html.html')))
+
