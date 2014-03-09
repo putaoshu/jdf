@@ -4,12 +4,12 @@
 */
 var jdf = require('../lib/jdf.js');
 var f = require('../lib/file.js');
-
+var compress = require('../lib/compress.js');
 /**
 * @replace test
 */
-console.log('compress css');
-console.log(jdf.compressCss('./lib/css.css'));
+// console.log('compress css');
+// console.log(compress.css('./lib/css.css'));
 
 
 /**
@@ -17,9 +17,9 @@ console.log(jdf.compressCss('./lib/css.css'));
 */
 console.log('\n\n');
 console.log('compress js');
-console.log(jdf.compressJs('./lib/js1.js'));
+// console.log(compress.js('./lib/js1.js'));
 console.log('\n\n');
-console.log(jdf.compressJs('./lib/js2.js'));
+console.log(compress.js('./lib/js1.js'));
 
 
 /**
