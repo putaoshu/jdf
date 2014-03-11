@@ -16,7 +16,7 @@ var compress = require('../lib/compress.js');
 * @jdf.compressJs
 */
 // console.log('compress js');
-console.log(compress.js('./lib/js1.js'));
+console.log(compress.js('./lib/js3.js'));
 // console.log(compress.js('./lib/js3.js'));
 
 /**
