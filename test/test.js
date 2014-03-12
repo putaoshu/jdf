@@ -11,12 +11,15 @@ var compress = require('../lib/compress.js');
 // console.log('compress css');
 // console.log(compress.css('./lib/css.css'));
 
+var cssStr = '.m .mt .extra a:link,.m .mt .extra a:visited,.sm .smt .extra a:link,.sm .smt .extra a:visited{color:#005ea7}';
+var cssStr2 = 'background:#f6f6f6;';
+console.log(compress.cssImagesUrlReplace(cssStr2, 'http://cdn.com'));
 
 /**
 * @jdf.compressJs
 */
 // console.log('compress js');
-console.log(compress.js('./lib/js3.js'));
+//console.log(compress.js('./lib/js3.js'));
 // console.log(compress.js('./lib/js3.js'));
 
 /**
