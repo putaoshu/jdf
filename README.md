@@ -120,6 +120,7 @@ config.json配置文件可配置项如下：
 	   u,upload            upload output files to remote sever
 	   u,upload   -d       upload output project ( include html folder)
 	   u,upload   file     upload output your own definition file
+	   w,widget   -p file  preview local widget
 
 	 Extra commands:
 
@@ -129,7 +130,7 @@ config.json配置文件可配置项如下：
 
 	 Example:
 
-	  jdf init
+	  jdf install demo
 
 ## NPM
 [![NPM](https://nodei.co/npm/jdf.png?downloads=true&stars=true)](https://nodei.co/npm/jdf/)

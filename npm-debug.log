@@ -1,0 +1,325 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'd:\\workspace\\nodejs\\node.exe',
+1 verbose cli   'd:\\workspace\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.4
+4 verbose publish [ '.' ]
+5 verbose read json C:\Users\Administrator\AppData\Roaming\npm\node_modules\jdf\package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\Administrator\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\npm-14844\\1394617211528-0.3630284243263304\\tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\tmp.tgz
+14 verbose folder .
+15 info prepublish jdf@1.1.9
+16 silly lockFile 3a52ce78- .
+17 verbose lock . C:\Users\Administrator\AppData\Roaming\npm-cache\3a52ce78-.lock
+18 silly lockFile 2b15b888-11528-0-3630284243263304-tmp-tgz C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\tmp.tgz
+19 verbose lock C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\tmp.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\2b15b888-11528-0-3630284243263304-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile 2b15b888-11528-0-3630284243263304-tmp-tgz C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\tmp.tgz
+23 silly lockFile 2b15b888-11528-0-3630284243263304-tmp-tgz C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\tmp.tgz
+24 verbose tar unpack C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\tmp.tgz
+25 silly lockFile fcf62781-11528-0-3630284243263304-package C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\package
+26 verbose lock C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\package C:\Users\Administrator\AppData\Roaming\npm-cache\fcf62781-11528-0-3630284243263304-package.lock
+27 silly lockFile 2b15b888-11528-0-3630284243263304-tmp-tgz C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\tmp.tgz
+28 verbose lock C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\tmp.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\2b15b888-11528-0-3630284243263304-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+32 silly gunzTarPerm extractEntry .npmignore
+33 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+34 silly gunzTarPerm extractEntry README.md
+35 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+36 silly gunzTarPerm extractEntry index.js
+37 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+38 silly gunzTarPerm extractEntry bin/jdf
+39 silly gunzTarPerm modified mode [ 'bin/jdf', 438, 420 ]
+40 silly gunzTarPerm extractEntry CHANGELOG.md
+41 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 438, 420 ]
+42 silly gunzTarPerm extractEntry lib/base.js
+43 silly gunzTarPerm modified mode [ 'lib/base.js', 438, 420 ]
+44 silly gunzTarPerm extractEntry lib/compress.js
+45 silly gunzTarPerm modified mode [ 'lib/compress.js', 438, 420 ]
+46 silly gunzTarPerm extractEntry lib/file.js
+47 silly gunzTarPerm modified mode [ 'lib/file.js', 438, 420 ]
+48 silly gunzTarPerm extractEntry lib/ftp.js
+49 silly gunzTarPerm modified mode [ 'lib/ftp.js', 438, 420 ]
+50 silly gunzTarPerm extractEntry lib/jdf.js
+51 silly gunzTarPerm modified mode [ 'lib/jdf.js', 438, 420 ]
+52 silly gunzTarPerm extractEntry lib/openurl.js
+53 silly gunzTarPerm modified mode [ 'lib/openurl.js', 438, 420 ]
+54 silly gunzTarPerm extractEntry lib/server.js
+55 silly gunzTarPerm modified mode [ 'lib/server.js', 438, 420 ]
+56 silly gunzTarPerm extractEntry lib/widget.js
+57 silly gunzTarPerm modified mode [ 'lib/widget.js', 438, 420 ]
+58 silly gunzTarPerm extractEntry test/test.js
+59 silly gunzTarPerm modified mode [ 'test/test.js', 438, 420 ]
+60 silly gunzTarPerm extractEntry test/lib/js1.js
+61 silly gunzTarPerm modified mode [ 'test/lib/js1.js', 438, 420 ]
+62 silly gunzTarPerm extractEntry test/lib/js2.js
+63 silly gunzTarPerm modified mode [ 'test/lib/js2.js', 438, 420 ]
+64 silly gunzTarPerm extractEntry test/lib/js3.js
+65 silly gunzTarPerm modified mode [ 'test/lib/js3.js', 438, 420 ]
+66 silly gunzTarPerm extractEntry test/lib/jsError.js
+67 silly gunzTarPerm modified mode [ 'test/lib/jsError.js', 438, 420 ]
+68 silly gunzTarPerm extractEntry test/lib/config.json
+69 silly gunzTarPerm modified mode [ 'test/lib/config.json', 438, 420 ]
+70 silly gunzTarPerm extractEntry test/lib/css.css
+71 silly gunzTarPerm modified mode [ 'test/lib/css.css', 438, 420 ]
+72 silly gunzTarPerm extractEntry test/lib/html.html
+73 silly gunzTarPerm modified mode [ 'test/lib/html.html', 438, 420 ]
+74 silly gunzTarPerm extractEntry test/lib/less.less
+75 silly gunzTarPerm modified mode [ 'test/lib/less.less', 438, 420 ]
+76 silly gunzTarPerm extractEntry test/lib/scss.scss
+77 silly gunzTarPerm modified mode [ 'test/lib/scss.scss', 438, 420 ]
+78 verbose read json C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\package\package.json
+79 silly lockFile fcf62781-11528-0-3630284243263304-package C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\package
+80 silly lockFile fcf62781-11528-0-3630284243263304-package C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\package
+81 silly lockFile 2b15b888-11528-0-3630284243263304-tmp-tgz C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\tmp.tgz
+82 silly lockFile 2b15b888-11528-0-3630284243263304-tmp-tgz C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\tmp.tgz
+83 verbose from cache C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\package\package.json
+84 verbose tar pack [ 'C:\\Users\\Administrator\\AppData\\Roaming\\npm-cache\\jdf\\1.1.9\\package.tgz',
+84 verbose tar pack   'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\npm-14844\\1394617211528-0.3630284243263304\\package' ]
+85 verbose tarball C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package.tgz
+86 verbose folder C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\package
+87 silly lockFile fcf62781-11528-0-3630284243263304-package C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\package
+88 verbose lock C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\package C:\Users\Administrator\AppData\Roaming\npm-cache\fcf62781-11528-0-3630284243263304-package.lock
+89 silly lockFile 32db0baa--npm-cache-jdf-1-1-9-package-tgz C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package.tgz
+90 verbose lock C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\32db0baa--npm-cache-jdf-1-1-9-package-tgz.lock
+91 silly lockFile fcf62781-11528-0-3630284243263304-package C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\package
+92 silly lockFile fcf62781-11528-0-3630284243263304-package C:\Users\ADMINI~1\AppData\Local\Temp\npm-14844\1394617211528-0.3630284243263304\package
+93 silly lockFile 32db0baa--npm-cache-jdf-1-1-9-package-tgz C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package.tgz
+94 silly lockFile 32db0baa--npm-cache-jdf-1-1-9-package-tgz C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package.tgz
+95 silly lockFile 7f1691db-ming-npm-cache-jdf-1-1-9-package C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package
+96 verbose lock C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package C:\Users\Administrator\AppData\Roaming\npm-cache\7f1691db-ming-npm-cache-jdf-1-1-9-package.lock
+97 silly lockFile 7f1691db-ming-npm-cache-jdf-1-1-9-package C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package
+98 silly lockFile 7f1691db-ming-npm-cache-jdf-1-1-9-package C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package
+99 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package.tgz
+100 silly lockFile 7f1691db-ming-npm-cache-jdf-1-1-9-package C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package
+101 verbose lock C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package C:\Users\Administrator\AppData\Roaming\npm-cache\7f1691db-ming-npm-cache-jdf-1-1-9-package.lock
+102 silly lockFile 32db0baa--npm-cache-jdf-1-1-9-package-tgz C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package.tgz
+103 verbose lock C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\32db0baa--npm-cache-jdf-1-1-9-package-tgz.lock
+104 silly gunzTarPerm modes [ '755', '644' ]
+105 silly gunzTarPerm extractEntry package.json
+106 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+107 silly gunzTarPerm extractEntry .npmignore
+108 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+109 silly gunzTarPerm extractEntry README.md
+110 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+111 silly gunzTarPerm extractEntry index.js
+112 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+113 silly gunzTarPerm extractEntry bin/jdf
+114 silly gunzTarPerm modified mode [ 'bin/jdf', 438, 420 ]
+115 silly gunzTarPerm extractEntry CHANGELOG.md
+116 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 438, 420 ]
+117 silly gunzTarPerm extractEntry lib/base.js
+118 silly gunzTarPerm modified mode [ 'lib/base.js', 438, 420 ]
+119 silly gunzTarPerm extractEntry lib/compress.js
+120 silly gunzTarPerm modified mode [ 'lib/compress.js', 438, 420 ]
+121 silly gunzTarPerm extractEntry lib/file.js
+122 silly gunzTarPerm modified mode [ 'lib/file.js', 438, 420 ]
+123 silly gunzTarPerm extractEntry lib/ftp.js
+124 silly gunzTarPerm modified mode [ 'lib/ftp.js', 438, 420 ]
+125 silly gunzTarPerm extractEntry lib/jdf.js
+126 silly gunzTarPerm modified mode [ 'lib/jdf.js', 438, 420 ]
+127 silly gunzTarPerm extractEntry lib/openurl.js
+128 silly gunzTarPerm modified mode [ 'lib/openurl.js', 438, 420 ]
+129 silly gunzTarPerm extractEntry lib/server.js
+130 silly gunzTarPerm modified mode [ 'lib/server.js', 438, 420 ]
+131 silly gunzTarPerm extractEntry lib/widget.js
+132 silly gunzTarPerm modified mode [ 'lib/widget.js', 438, 420 ]
+133 silly gunzTarPerm extractEntry test/test.js
+134 silly gunzTarPerm modified mode [ 'test/test.js', 438, 420 ]
+135 silly gunzTarPerm extractEntry test/lib/js1.js
+136 silly gunzTarPerm modified mode [ 'test/lib/js1.js', 438, 420 ]
+137 silly gunzTarPerm extractEntry test/lib/js2.js
+138 silly gunzTarPerm modified mode [ 'test/lib/js2.js', 438, 420 ]
+139 silly gunzTarPerm extractEntry test/lib/js3.js
+140 silly gunzTarPerm modified mode [ 'test/lib/js3.js', 438, 420 ]
+141 silly gunzTarPerm extractEntry test/lib/jsError.js
+142 silly gunzTarPerm modified mode [ 'test/lib/jsError.js', 438, 420 ]
+143 silly gunzTarPerm extractEntry test/lib/config.json
+144 silly gunzTarPerm modified mode [ 'test/lib/config.json', 438, 420 ]
+145 silly gunzTarPerm extractEntry test/lib/css.css
+146 silly gunzTarPerm modified mode [ 'test/lib/css.css', 438, 420 ]
+147 silly gunzTarPerm extractEntry test/lib/html.html
+148 silly gunzTarPerm modified mode [ 'test/lib/html.html', 438, 420 ]
+149 silly gunzTarPerm extractEntry test/lib/less.less
+150 silly gunzTarPerm modified mode [ 'test/lib/less.less', 438, 420 ]
+151 silly gunzTarPerm extractEntry test/lib/scss.scss
+152 silly gunzTarPerm modified mode [ 'test/lib/scss.scss', 438, 420 ]
+153 verbose read json C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package\package.json
+154 silly lockFile 7f1691db-ming-npm-cache-jdf-1-1-9-package C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package
+155 silly lockFile 7f1691db-ming-npm-cache-jdf-1-1-9-package C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package
+156 silly lockFile 32db0baa--npm-cache-jdf-1-1-9-package-tgz C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package.tgz
+157 silly lockFile 32db0baa--npm-cache-jdf-1-1-9-package-tgz C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package.tgz
+158 silly shasum updated bytes 20569
+159 info shasum 6c4c0c14cadbd84eb2219e525f540aef506e62dd
+159 info shasum C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package.tgz
+160 verbose from cache C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package\package.json
+161 verbose chmod C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package.tgz 644
+162 silly chown skipping for windows C:\Users\Administrator\AppData\Roaming\npm-cache\jdf\1.1.9\package.tgz
+163 silly lockFile 3a52ce78- .
+164 silly publish { name: 'jdf',
+164 silly publish   description: 'jdf fe tool',
+164 silly publish   version: '1.1.9',
+164 silly publish   author: { name: 'jdf', email: '-' },
+164 silly publish   homepage: '-',
+164 silly publish   keywords: [ 'jdf' ],
+164 silly publish   license: 'MIT',
+164 silly publish   bin: { jdf: 'bin/jdf' },
+164 silly publish   engines: { node: '>= 0.8.0' },
+164 silly publish   main: 'jdf.js',
+164 silly publish   scripts: { test: '' },
+164 silly publish   repository: { type: 'git', url: '-' },
+164 silly publish   preferGlobal: true,
+164 silly publish   readmeFilename: 'README.md',
+164 silly publish   dependencies:
+164 silly publish    { 'node-watch': '0.3.4',
+164 silly publish      tar: '0.1.19',
+164 silly publish      'uglify-js': '2.4.12',
+164 silly publish      'clean-css': '2.1.0',
+164 silly publish      ftp: '0.3.6',
+164 silly publish      'node-sass': '0.8.1',
+164 silly publish      less: '1.3.3',
+164 silly publish      'node-pngquant-native': '0.0.4' },
+164 silly publish   readme: '# jdf\r\n\r\n[![NPM version](https://badge.fury.io/js/jdf.png)](http://badge.fury.io/js/jdf)\r\n\r\n## 关于\r\n\r\n* jd fe develop tools --- 前端开发集成解决方案，合理，快速和高效的解决前端开发中的工程和项目问题\r\n\r\n## 功能介绍\r\n\r\n* 完美支持windows、mac、linux等系统\r\n* 支持本地，联调，线上三种开发模式\r\n* 生成标准化的项目文件夹，并可配置\r\n* [todo]支持css中图片地址自动加md5版本戳\r\n* 支持给所有静态资源添加CDN域名前缀或后缀戳\r\n* 支持文件夹中和单独文件css和js文件压缩\r\n* 支持less即时编译\r\n* 支持sass即时编译\r\n* 支持引入外部公共模块，提升生产力\r\n* 支持通过配置文件传参\r\n* [todo]内置css sprites\r\n* 内置png图片压缩插件，支持将png24压缩为png8\r\n* 内置本地开发调试服务器，支持html和其它静态文件预览\r\n* 支持文件监听，保存后文件即可在浏览器即时预览\r\n* 支持上传到远端服务器，利用文件监听，可以实现本地文件保存后即可上传至远端服务器\r\n* 编码统一化，无论当前文件格式是gbk，gb2312，utf8，utf8-bom，统一输出utf8\r\n* 多条命令支持，满足你不同的开发需求\r\n\r\n## 快速入门\r\n\r\n* 安装nodejs\r\n\t* 下载地址 [nodejs](http://nodejs.org/download/)\r\n* 安装jdf\r\n\t* npm install  jdf **-g**\r\n\t* 一直保持最新，最好使用 npm install  jdf **-g** --save-dev\r\n\r\n## 应用举例\r\n\r\n* 新建工程目录\r\n\t* 在svn主干上新建分支，名称为testitem，比如svn根目录/product/index/branches/testitem\r\n\t* 或者直接在主干新建项目文件夹，比如svn根目录/product/index/trunk/\r\n\t* 或者在某个目录新建项目文件夹，配置projectPath值后，开始项目开发\r\n* 初始化工程目录\r\n\t* 在命令行下进入工程目录，执行\r\n\t* jdf init\r\n* 项目开发\r\n\t* 在html，app/js/，app/css/文件夹中新建相应文件\r\n* 项目本地调试\r\n\t* jdf b 在浏览器中查看build后工程，即http://localhost:3000/\r\n\t* jdf r 在浏览器中查看release后的工程，包括widget中所有模块合并后的css，js效果\r\n* 项目发布\r\n\t* jdf o 输出项目文件夹，包括压缩css，js，images，静态资源加cdn前缀\r\n\t* jdf o -d 输出项目文件夹，包括压缩css，js，images和html文件夹，供联调使用\r\n\t* jdf o app/js/test.js 自由输出自己需要的文件，如app/js/test.js\r\n* 项目联调\r\n\t* jdf u 发布至远端机器，供产品，设计师查看效果,以及后端工程师联调\r\n\r\n## widget模块依赖介绍\r\n\r\n* widget模块是为了解决开发多个页面中有相同html结构，一页多屏html代码上等等问题。\r\n* 引入类型：html，css，images\r\n* 引入方式\r\n\r\n\t\t{%widget name="test"%}\r\n    \r\n* 开发目录\r\n\r\n\t\twidget/\r\n        widget/test/\r\n        widget/test/test.html\r\n        widget/test/test.css\r\n        widget/test/test.js\r\n        widget/test/test.png\r\n\r\n* 本地测试输出\r\n\r\n\t\t<!-- header -->\r\n\t\t<link type="text/css" rel="stylesheet"  href="/widget/tes/tes.css" source="widget"/>\r\n\t\t<script type="text/javascript" src="/widget/tes/tes.js" source="widget"/></script>\r\n\r\n\t\t<!--body -->\r\n\t\t<div class="test">this is test</div>\r\n\r\n* 编译输出\r\n\t* 所有widget模块中css文件合并为pkg.css\r\n\t* 所有widget模块中js文件合并为pkg.js\r\n\t* 所有widget模块中images文件输出对应至目录\r\n\r\n## 配置文档\r\nconfig.json配置文件可配置项如下：\r\n\r\n\t{\r\n\t\t"deployDirName" : "html",\r\n\t\t"cdn":"http://www.cdn.com", \r\n\t\t"jsPlace":"bottom",\r\n\r\n\t\t"baseDir" : "app",\r\n\t\t"cssDir" : "app/css",\r\n\t\t"imagesDir" : "app/css/i",\r\n\t\t"jsDir" : "app/js",\r\n\t\t"htmlDir" : "html",\r\n\t\t"widgetDir" : "widget",\r\n\t\t"outputDirName:" : "build",\r\n\r\n\t\t"projectPath" : "product/index/",\r\n\t\t"host" : "192.168.1.1",\r\n\t\t"serverDir" : "cdndir"\r\n\t}\r\n\r\n## 相关命令\r\n\r\n\t Commands:\r\n\r\n\t   i,install           download init dir ,demo, external module\r\n\t   b,build             build project\r\n\t   r,release           release project\r\n\t   o,output            output project\r\n\t   o,output   -d       output project ( include html folder)\r\n\t   o,output   file     output your own definition file\r\n\t   u,upload            upload output files to remote sever\r\n\t   u,upload   -d       upload output project ( include html folder)\r\n\t   u,upload   file     upload output your own definition file\r\n\r\n\t Extra commands:\r\n\r\n\t   c,compress          compress js&&css (jdf c input output)\r\n\t   -h                  get help information\r\n\t   -v                  get the version number\r\n\r\n\t Example:\r\n\r\n\t  jdf init\r\n\r\n## NPM\r\n[![NPM](https://nodei.co/npm/jdf.png?downloads=true&stars=true)](https://nodei.co/npm/jdf/)\r\n',
+164 silly publish   _id: 'jdf@1.1.9',
+164 silly publish   dist: { shasum: '6c4c0c14cadbd84eb2219e525f540aef506e62dd' },
+164 silly publish   _from: '.' }
+165 verbose url raw jdf
+166 verbose url resolving [ 'https://registry.npmjs.org/', './jdf' ]
+167 verbose url resolved https://registry.npmjs.org/jdf
+168 info trying registry request attempt 1 at 17:40:22
+169 http PUT https://registry.npmjs.org/jdf
+170 http 403 https://registry.npmjs.org/jdf
+171 info trying registry request attempt 1 at 17:40:27
+172 http PUT https://registry.npmjs.org/jdf
+173 http 503 https://registry.npmjs.org/jdf
+174 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+174 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+174 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+174 verbose bad json <html>
+174 verbose bad json   <head>
+174 verbose bad json     <title>503 Resource temporarily unavailable</title>
+174 verbose bad json   </head>
+174 verbose bad json   <body>
+174 verbose bad json     <h1>Error 503 Resource temporarily unavailable</h1>
+174 verbose bad json     <p>Resource temporarily unavailable</p>
+174 verbose bad json     <h3>Guru Meditation:</h3>
+174 verbose bad json     <p>XID: 3803794688</p>
+174 verbose bad json     <hr>
+174 verbose bad json     <p>Varnish cache server</p>
+174 verbose bad json   </body>
+174 verbose bad json </html>
+175 error registry error parsing json
+176 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
+176 info retry
+176 info retry <?xml version="1.0" encoding="utf-8"?>
+176 info retry <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+176 info retry  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+176 info retry <html>
+176 info retry   <head>
+176 info retry     <title>503 Resource temporarily unavailable</title>
+176 info retry   </head>
+176 info retry   <body>
+176 info retry     <h1>Error 503 Resource temporarily unavailable</h1>
+176 info retry     <p>Resource temporarily unavailable</p>
+176 info retry     <h3>Guru Meditation:</h3>
+176 info retry     <p>XID: 3803794688</p>
+176 info retry     <hr>
+176 info retry     <p>Varnish cache server</p>
+176 info retry   </body>
+176 info retry </html>
+177 info trying registry request attempt 2 at 17:40:55
+178 http PUT https://registry.npmjs.org/jdf
+179 http 201 https://registry.npmjs.org/jdf
+180 verbose url raw jdf
+181 verbose url resolving [ 'https://registry.npmjs.org/', './jdf' ]
+182 verbose url resolved https://registry.npmjs.org/jdf
+183 info trying registry request attempt 1 at 17:41:04
+184 http GET https://registry.npmjs.org/jdf
+185 http 200 https://registry.npmjs.org/jdf
+186 verbose uploading [ 'jdf/-/jdf-1.1.9.tgz/-rev/149-3b791c6abd21e242fd2174d6ae8f71ab',
+186 verbose uploading   'C:\\Users\\Administrator\\AppData\\Roaming\\npm-cache\\jdf\\1.1.9\\package.tgz' ]
+187 verbose url raw jdf/-/jdf-1.1.9.tgz/-rev/149-3b791c6abd21e242fd2174d6ae8f71ab
+188 verbose url resolving [ 'https://registry.npmjs.org/',
+188 verbose url resolving   './jdf/-/jdf-1.1.9.tgz/-rev/149-3b791c6abd21e242fd2174d6ae8f71ab' ]
+189 verbose url resolved https://registry.npmjs.org/jdf/-/jdf-1.1.9.tgz/-rev/149-3b791c6abd21e242fd2174d6ae8f71ab
+190 info trying registry request attempt 1 at 17:41:05
+191 http PUT https://registry.npmjs.org/jdf/-/jdf-1.1.9.tgz/-rev/149-3b791c6abd21e242fd2174d6ae8f71ab
+192 info retry will retry, error on last attempt: Error: socket hang up
+193 info trying registry request attempt 2 at 17:42:51
+194 http PUT https://registry.npmjs.org/jdf/-/jdf-1.1.9.tgz/-rev/149-3b791c6abd21e242fd2174d6ae8f71ab
+195 http 400 https://registry.npmjs.org/jdf/-/jdf-1.1.9.tgz/-rev/149-3b791c6abd21e242fd2174d6ae8f71ab
+196 verbose bad json <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+196 verbose bad json <html><head>
+196 verbose bad json <title>400 Bad Request</title>
+196 verbose bad json </head><body>
+196 verbose bad json <h1>Bad Request</h1>
+196 verbose bad json <p>Your browser sent a request that this server could not understand.<br />
+196 verbose bad json </p>
+196 verbose bad json </body></html>
+197 error registry error parsing json
+198 info trying registry request attempt 1 at 17:44:04
+199 http PUT https://registry.npmjs.org/jdf/-/jdf-1.1.9.tgz/-rev/149-3b791c6abd21e242fd2174d6ae8f71ab
+200 http 400 https://registry.npmjs.org/jdf/-/jdf-1.1.9.tgz/-rev/149-3b791c6abd21e242fd2174d6ae8f71ab
+201 verbose bad json <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+201 verbose bad json <html><head>
+201 verbose bad json <title>400 Bad Request</title>
+201 verbose bad json </head><body>
+201 verbose bad json <h1>Bad Request</h1>
+201 verbose bad json <p>Your browser sent a request that this server could not understand.<br />
+201 verbose bad json </p>
+201 verbose bad json </body></html>
+202 error registry error parsing json
+203 error publish Error uploading package
+204 error SyntaxError: Unexpected token <
+204 error <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+204 error <html><head>
+204 error <title>400 Bad Request</title>
+204 error </head><body>
+204 error <h1>Bad Request</h1>
+204 error <p>Your browser sent a request that this server could not understand.<br />
+204 error </p>
+204 error </body></html>
+204 error
+204 error     at Object.parse (native)
+204 error     at RegClient.<anonymous> (d:\workspace\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:235:23)
+204 error     at Request.self.callback (d:\workspace\nodejs\node_modules\npm\node_modules\request\index.js:142:22)
+204 error     at Request.EventEmitter.emit (events.js:98:17)
+204 error     at Request.<anonymous> (d:\workspace\nodejs\node_modules\npm\node_modules\request\index.js:856:14)
+204 error     at Request.EventEmitter.emit (events.js:117:20)
+204 error     at IncomingMessage.<anonymous> (d:\workspace\nodejs\node_modules\npm\node_modules\request\index.js:808:12)
+204 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+204 error     at _stream_readable.js:883:14
+204 error     at process._tickCallback (node.js:415:13)
+205 error If you need help, you may report this log at:
+205 error     <http://github.com/isaacs/npm/issues>
+205 error or email it to:
+205 error     <npm-@googlegroups.com>
+206 error System Windows_NT 6.1.7601
+207 error command "d:\\workspace\\nodejs\\node.exe" "d:\\workspace\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+208 error cwd C:\Users\Administrator\AppData\Roaming\npm\node_modules\jdf
+209 error node -v v0.10.4
+210 error npm -v 1.2.18
+211 error type unexpected_token
+212 verbose exit [ 1, true ]
