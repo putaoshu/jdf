@@ -6,21 +6,27 @@ var jdf = require('../lib/jdf.js');
 var f = require('../lib/file.js');
 var compress = require('../lib/compress.js');
 /**
-* @replace test
+* @add images prefix
 */
 // console.log('compress css');
 // console.log(compress.css('./lib/css.css'));
 
 var cssStr = '.m .mt .extra a:link,.m .mt .extra a:visited,.sm .smt .extra a:link,.sm .smt .extra a:visited{color:#005ea7}';
 var cssStr2 = 'background:#f6f6f6;';
-console.log(compress.cssImagesUrlReplace(cssStr2, 'http://cdn.com'));
+//console.log(compress.cssImagesUrlReplace(cssStr2, 'http://cdn.com'));
 
 /**
 * @jdf.compressJs
 */
-// console.log('compress js');
+//define has id, require
+console.log(compress.js('./lib/js1.js'));
+console.log(compress.js('./lib/js2.js'));
+
+//define has require, no id
 //console.log(compress.js('./lib/js3.js'));
-// console.log(compress.js('./lib/js3.js'));
+
+//seajs.use
+//console.log(compress.js('./lib/js5.js'));
 
 /**
 * @f.copy
