@@ -4,6 +4,7 @@
 * 支持下载widget到当前工程
 * js依赖管理: 支持use和require取文件ID和提取依赖数组dependencies
 * 本地server支持目录浏览
+* 优化上传体验
 
 ## 1.1.9 / 2014-3-12 15:21:09
 
