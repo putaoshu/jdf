@@ -109,28 +109,29 @@ config.json配置文件可配置项如下：
 
 ## 相关命令
 
-	 Commands:
+	  Commands:
 
-	   i,install           download init dir ,demo, external module
-	   b,build             build project
-	   r,release           release project
-	   o,output            output project
-	   o,output   -d       output project ( include html folder)
-	   o,output   file     output your own definition file
-	   u,upload            upload output files to remote sever
-	   u,upload   -d       upload output project ( include html folder)
-	   u,upload   file     upload output your own definition file
-	   w,widget   -p file  preview local widget
+		i,install           download init dir ,demo, external module
+		b,build             build project
+		r,release           release project
+		o,output            output project
+		o,output   -d       output project ( include html folder)
+		o,output   file     output your own definition file
+		u,upload            upload output files to remote sever
+		u,upload   -d       upload output project ( include html folder)
+		u,upload   file     upload output your own definition file
+		u,upload   -custom localdir serverdir
+		w,widget   -p file  preview local widget
 
-	 Extra commands:
+	  Extra commands:
 
-	   c,compress          compress js&&css (jdf c input output)
-	   -h                  get help information
-	   -v                  get the version number
+		c,compress          compress js&&css (jdf c input output)
+		-h                  get help information
+		-v                  get the version number
 
-	 Example:
+	  Example:
 
-	  jdf install demo
+	   jdf init
 
 ## NPM
 [![NPM](https://nodei.co/npm/jdf.png?downloads=true&stars=true)](https://nodei.co/npm/jdf/)
