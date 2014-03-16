@@ -16,11 +16,11 @@
 * 支持文件夹中和单独文件css和js文件压缩
 * 支持less即时编译
 * 支持sass即时编译
-* 支持引入外部公共模块，提升生产力
 * 支持通过配置文件传参
+* 支持公共widget的预览，安装和发布
 * [todo]内置css sprites
 * 内置png图片压缩插件，支持将png24压缩为png8
-* 内置本地开发调试服务器，支持html和其它静态文件预览
+* 内置本地开发调试服务器，支持html和静态文件预览，以及当前目录浏览
 * 支持文件监听，保存后文件即可在浏览器即时预览
 * 支持上传到远端服务器，利用文件监听，可以实现本地文件保存后即可上传至远端服务器
 * 编码统一化，无论当前文件格式是gbk，gb2312，utf8，utf8-bom，统一输出utf8
@@ -46,14 +46,14 @@
 * 项目开发
 	* 在html，app/js/，app/css/文件夹中新建相应文件
 * 项目本地调试
-	* jdf b 在浏览器中查看build后工程，即http://localhost:3000/
-	* jdf r 在浏览器中查看release后的工程，包括widget中所有模块合并后的css，js效果
-* 项目发布
-	* jdf o 输出项目文件夹，包括压缩css，js，images，静态资源加cdn前缀
-	* jdf o -d 输出项目文件夹，包括压缩css，js，images和html文件夹，供联调使用
-	* jdf o app/js/test.js 自由输出自己需要的文件，如app/js/test.js
+	* jdf build 在浏览器中查看build后工程，即http://localhost:3000/
+	* jdf release 在浏览器中查看release后的工程，包括widget中所有模块合并后的css，js效果
+* 项目输出
+	* jdf output 输出项目文件夹，包括压缩css，js，images，静态资源加cdn前缀
+	* jdf output -html 输出项目文件夹，包括压缩css，js，images和html文件夹，供联调使用
+	* jdf output app/js/test.js 自由输出自己需要的文件，如app/js/test.js
 * 项目联调
-	* jdf u 发布至远端机器，供产品，设计师查看效果,以及后端工程师联调
+	* jdf upload 发布至远端机器，供产品，设计师查看效果,以及后端工程师联调
 
 ## widget模块依赖介绍
 
@@ -108,30 +108,38 @@ config.json配置文件可配置项如下：
 	}
 
 ## 相关命令
+	  Usage: jdf <Command>:
 
-	  Commands:
+	  Command:
 
-		i,install           download init dir ,demo, external module
-		b,build             build project
-		r,release           release project
-		o,output            output project
-		o,output   -d       output project ( include html folder)
-		o,output   file     output your own definition file
-		u,upload            upload output files to remote sever
-		u,upload   -d       upload output project ( include html folder)
-		u,upload   file     upload output your own definition file
-		u,upload   -custom localdir serverdir
-		w,widget   -p file  preview local widget
+	    install		download init dir, demo
+	    build		build project
+	    release		release project
 
+	    output		output project
+	          -html		output project (include html) 
+	          dirname	output your own custom dirname
+
+	    upload		upload output files to remote sever
+	          -html		upload output project (include html) 
+	          dirname	upload output your own custom dirname
+	          -custom    	upload a dir/file to server (jdf upload localdir serverdir)
+
+	    widget
+	      	  -preview name preview a local widget
+	      	  -install name install a widget
+	      	  -publish name publish a widget
+	 
 	  Extra commands:
 
-		c,compress          compress js&&css (jdf c input output)
-		-h                  get help information
-		-v                  get the version number
+	    compress		compress js/css (jdf compress input output)
+	    clean		clean cache folder
+	    -h			get help information
+	    -v			get the version number
 
 	  Example:
 
-	   jdf init
+	   jdf install init
 
 ## NPM
 [![NPM](https://nodei.co/npm/jdf.png?downloads=true&stars=true)](https://nodei.co/npm/jdf/)
