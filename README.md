@@ -6,56 +6,66 @@
 
 ## 关于
 
-* jd fe develop tools --- 前端开发集成解决方案，合理，快速和高效的解决前端开发中的工程和项目问题
+* jdf --- 前端开发集成解决方案，合理，快速和高效的解决前端开发中的工程和项目问题
 
 ## 功能介绍
 
 * 完美支持windows、mac、linux等系统
-* 支持本地，联调，线上三种开发模式
-* 生成标准化的项目文件夹，并可配置
-* [todo]支持css中图片地址自动加md5版本戳
+* 支持本地，联调，线上三种开发流程
+* 支持公共widget的引用，预览，安装和发布
+* 可生成标准化的项目文件夹
 * 支持给所有静态资源添加CDN域名前缀或后缀戳
-* 支持文件夹中和单独文件css和js文件压缩
-* 支持less即时编译
-* 支持sass即时编译
-* 支持通过配置文件传参
-* 支持公共widget的预览，安装和发布
-* [todo]内置css sprites
+* 支持css引用的所有链接生成combo格式
+* 支持文件夹或者单独文件css和js文件压缩
+* 支持less，sass即时编译
+* 支持cmd模块自动提取文件id和dependencies，压缩时保留require关键字
+* 支持备份当前工程文件
+* 支持通过配置文件传参构建项目
 * 内置png图片压缩插件，支持将png24压缩为png8
 * 内置本地开发调试服务器，支持html和静态文件预览，以及当前目录浏览
 * 支持文件监听，保存后文件即可在浏览器即时预览
-* 支持上传到远端服务器，利用文件监听，可以实现本地文件保存后即可上传至远端服务器
-* 编码统一化，无论当前文件格式是gbk，gb2312，utf8，utf8-bom，统一输出utf8
-* 多条命令支持，满足你不同的开发需求
+* 支持上传到远端服务器，利用文件监听，即实现本地文件保存后可上传至远端服务器
+* 编码统一化，即无论当前文件格式是gbk，gb2312，utf8，utf8-bom，统一输出utf8
+* 多条命令，可满足不同的开发需求
+* [todo]内置css sprites
+* [todo]支持css中图片地址自动加md5版本戳
 
-## 快速入门
+## 安装
 
-* 安装nodejs
+* jdf基于nodejs
 	* 下载地址 [nodejs](http://nodejs.org/download/)
 * 安装jdf
-	* npm install  jdf **-g**
-	* 一直保持最新，最好使用 npm install  jdf **-g** --save-dev
+	* npm install jdf **-g** --save-dev
 
-## 应用举例
+## 快速入门和应用举例
 
 * 新建工程目录
 	* 在svn主干上新建分支，名称为testitem，比如svn根目录/product/index/branches/testitem
 	* 或者直接在主干新建项目文件夹，比如svn根目录/product/index/trunk/
-	* 或者在某个目录新建项目文件夹，配置projectPath值后，开始项目开发
+	* 或者在某个目录新建项目文件夹，同时配置projectPath
 * 初始化工程目录
-	* 在命令行下进入工程目录，执行
-	* jdf init
+	* 从命令行下进入当前目录
+	* 执行 jdf install init，生成标准化的项目文件夹
 * 项目开发
-	* 在html，app/js/，app/css/文件夹中新建相应文件
+	* 在html，app/js/，app/css/等文件夹中新建相应文件
+	* 在widget文件夹新建规划抽离好的widget模块
 * 项目本地调试
-	* jdf build 在浏览器中查看build后工程，即http://localhost:3000/
-	* jdf release 在浏览器中查看release后的工程，包括widget中所有模块合并后的css，js效果
+	* jdf build 在浏览器中查看构建后的当前工程，包括less，sass编译，widget编译等
+	* jdf release 在浏览器中查看release后的工程，包括所有widget中js，css合并后效果
 * 项目输出
-	* jdf output 输出项目文件夹，包括压缩css，js，images，静态资源加cdn前缀
-	* jdf output -html 输出项目文件夹，包括压缩css，js，images和html文件夹，供联调使用
-	* jdf output app/js/test.js 自由输出自己需要的文件，如app/js/test.js
-* 项目联调
-	* jdf upload 发布至远端机器，供产品，设计师查看效果,以及后端工程师联调
+	* jdf output 输出项目文件夹，包括压缩合并后的css，js，images，静态资源加cdn前缀，同时压缩所有png图片
+	* jdf output -html 输出项目文件夹时包括了html文件夹，供联调使用
+	* jdf output app/js/test.js，app/css 自定义输出自己需要的文件或文件夹
+* 项目联调和发布
+	* jdf upload 发布至远端机器，供产品，设计师查看效果，以及后端工程师联调
+* 项目备份
+	* jdf output -backup 备份app目录至tags文件夹，供和已线上版本对比
+	
+## widget命令使用介绍
+
+* widget -preview name 预览一个widget模块
+* widget -install name 安装一个widget模块到当前工程
+* widget -publish name 发布一个widget模块
 
 ## widget模块依赖介绍
 
@@ -68,68 +78,71 @@
 * 开发目录
 
 		widget/
-        widget/test/
-        widget/test/test.html
-        widget/test/test.css
-        widget/test/test.js
-        widget/test/test.png
+	        widget/test/
+	        widget/test/test.html
+	        widget/test/test.css
+	        widget/test/test.js
+	        widget/test/test.png
 
 * 本地测试输出
 
-		<!-- header -->
+		<!-- js,css -->
 		<link type="text/css" rel="stylesheet"  href="/widget/tes/tes.css" source="widget"/>
 		<script type="text/javascript" src="/widget/tes/tes.js" source="widget"/></script>
 
-		<!--body -->
+		<!-- tpl -->
 		<div class="test">this is test</div>
 
 * 编译输出
-	* 所有widget模块中css文件合并为pkg.css
-	* 所有widget模块中js文件合并为pkg.js
+	* 所有widget模块中css文件合并为widget.css
+	* 所有widget模块中js文件合并为widget.js
 	* 所有widget模块中images文件输出对应至目录
 
 ## 配置文档
-config.json配置文件可配置项如下：
-	{
-		"cdn":"http://www.cdn.com", 
-		"jsPlace":"bottom",
 
-		"baseDir" : "app",
-		"cssDir" : "app/css",
-		"imagesDir" : "app/css/i",
-		"jsDir" : "app/js",
-		"htmlDir" : "html",
-		"widgetDir" : "widget",
+* config.json需要放在项目根目录下, 可配置项如下：
 
-		"buildDirName" : "html",
-		"outputDirName:" : "build",
-		"outputCustom:" : "a/,b/",
-
-		"projectPath" : "product/index/",
-		"host" : "192.168.1.1",
-		"serverDir" : "cdndir",
-		"localServerPort" : "3000" 
-	}
+		{
+			"cdn":"http://www.cdn.com", 
+			"jsPlace":"bottom",
 	
-	解释如下
-	cdn:'http://www.cdn.com', //静态cdn域名
-	jsPlace:"bottom",//编译后js文件位置
+			"baseDir" : "app",
+			"cssDir" : "app/css",
+			"imagesDir" : "app/css/i",
+			"jsDir" : "app/js",
+			"htmlDir" : "html",
+			"widgetDir" : "widget",
+	
+			"buildDirName" : "html",
+			"outputDirName:" : "build",
+			"outputCustom:" : "a/,b/",
+	
+			"projectPath" : "product/index/",
+			"host" : "192.168.1.1",
+			"serverDir" : "cdndir",
+			"localServerPort" : "3000" 
+		}
+	
+* 具体说明如下:
 
-	baseDir:'app',//静态文件名称
-	cssDir : 'app/css',//css文件夹名称
-	imagesDir : 'app/css/i',//images文件夹名称
-	jsDir: 'app/js',//js文件夹名称
-	htmlDir: 'html',//html文件夹名称
-	widgetDir: 'widget',//widget文件夹名称
-
-	buildDirName:'html',//编译的文件夹名称
-	outputDirName:'build',//输出文件夹名称
-	outputCustom:'a/,b/',//自定义输出文件夹
-
-	projectPath: 'product/index/',//工程目录前缀
-	host:"192.168.1.1",//远端机器IP
-	serverDir: 'misc.360buyimg.com', //上传至远端服务器文件夹名称
-	localServerPort: 3000 //本地服务器端口
+		cdn:'http://www.cdn.com', //静态cdn域名
+		jsPlace:"bottom", //编译后js文件位置,位于header或者页面底部
+	
+		baseDir:'app', //静态文件名称
+		cssDir : 'app/css', //css文件夹名称
+		imagesDir : 'app/css/i', //images文件夹名称
+		jsDir: 'app/js', //js文件夹名称
+		htmlDir: 'html', //html文件夹名称
+		widgetDir: 'widget', //widget文件夹名称
+	
+		buildDirName:'html', //编译的文件夹名称
+		outputDirName:'build', //输出文件夹名称
+		outputCustom:'a/,b/', //自定义输出文件夹
+	
+		projectPath: 'product/index/', //工程目录前缀
+		host:"192.168.1.1", //远端机器IP
+		serverDir: 'cdndir', //上传至远端服务器文件夹名称
+		localServerPort: 3000 //本地服务器端口
 
 ## 相关命令
 	 
