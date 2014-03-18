@@ -2,6 +2,8 @@
 
 [![NPM version](https://badge.fury.io/js/jdf.png)](http://badge.fury.io/js/jdf)
 
+[![NPM](https://nodei.co/npm/jdf.png?downloads=true)](https://nodei.co/npm/jdf/)
+
 ## 关于
 
 * jd fe develop tools --- 前端开发集成解决方案，合理，快速和高效的解决前端开发中的工程和项目问题
@@ -88,9 +90,7 @@
 
 ## 配置文档
 config.json配置文件可配置项如下：
-
 	{
-		"deployDirName" : "html",
 		"cdn":"http://www.cdn.com", 
 		"jsPlace":"bottom",
 
@@ -100,46 +100,68 @@ config.json配置文件可配置项如下：
 		"jsDir" : "app/js",
 		"htmlDir" : "html",
 		"widgetDir" : "widget",
+
+		"buildDirName" : "html",
 		"outputDirName:" : "build",
+		"outputCustom:" : "a/,b/",
 
 		"projectPath" : "product/index/",
 		"host" : "192.168.1.1",
-		"serverDir" : "cdndir"
+		"serverDir" : "cdndir",
+		"localServerPort" : "3000" 
 	}
+	
+	解释如下
+	cdn:'http://www.cdn.com', //静态cdn域名
+	jsPlace:"bottom",//编译后js文件位置
+
+	baseDir:'app',//静态文件名称
+	cssDir : 'app/css',//css文件夹名称
+	imagesDir : 'app/css/i',//images文件夹名称
+	jsDir: 'app/js',//js文件夹名称
+	htmlDir: 'html',//html文件夹名称
+	widgetDir: 'widget',//widget文件夹名称
+
+	buildDirName:'html',//编译的文件夹名称
+	outputDirName:'build',//输出文件夹名称
+	outputCustom:'a/,b/',//自定义输出文件夹
+
+	projectPath: 'product/index/',//工程目录前缀
+	host:"192.168.1.1",//远端机器IP
+	serverDir: 'misc.360buyimg.com', //上传至远端服务器文件夹名称
+	localServerPort: 3000 //本地服务器端口
 
 ## 相关命令
-	  Usage: jdf <Command>:
-
-	  Command:
-
-	    install		download init dir, demo
-	    build		build project
-	    release		release project
-
-	    output		output project
-	          -html		output project (include html) 
-	          dirname	output your own custom dirname
-
-	    upload		upload output files to remote sever
-	          -html		upload output project (include html) 
-	          dirname	upload output your own custom dirname
-	          -custom    	upload a dir/file to server (jdf upload localdir serverdir)
-
-	    widget
-	      	  -preview name preview a local widget
-	      	  -install name install a widget
-	      	  -publish name publish a widget
 	 
-	  Extra commands:
+	 Usage: jdf <Command>:
 
-	    compress		compress js/css (jdf compress input output)
-	    clean		clean cache folder
-	    -h			get help information
-	    -v			get the version number
+	 Command:
 
-	  Example:
+	   install             download init dir, demo
+	   build               build project
+	   release             release project
 
-	   jdf install init
+	   output              output project
+	         -html         output project (include html)
+	         dirname       output your own custom dirname
+	         -backup       backup outputdir to tags dir
 
-## NPM
-[![NPM](https://nodei.co/npm/jdf.png?downloads=true&stars=true)](https://nodei.co/npm/jdf/)
+	   upload              upload output files to remote sever
+	         -html         upload output project (include html)
+	         dirname       upload output your own custom dirname
+	         -custom       upload a dir/file to server
+
+	   widget
+	         -preview name preview a widget
+	         -install name install a widget
+	         -publish name publish a widget
+
+	 Extra commands:
+
+	   compress            compress js/css (jdf compress input output)
+	   clean               clean cache folder
+	   -h                  get help information
+	   -v                  get the version number
+
+
+
