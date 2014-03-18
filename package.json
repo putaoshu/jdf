@@ -1,12 +1,12 @@
 {
   "name": "jdf",
   "description": "jdf fe tool",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": {
     "name": "jdf",
     "email": "-"
   },
-  "homepage": "-",
+  "homepage": "https://github.com/putaoshu/jdf",
   "keywords": [
     "jdf"
   ],
@@ -17,13 +17,16 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "main": "jdf.js",
+  "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "-"
+    "url": "https://github.com/putaoshu/jdf.git"
+  },
+  "bugs": {
+       "web": "https://github.com/putaoshu/jdf/issues" 
   },
   "preferGlobal": true,
   "readmeFilename": "README.md",
