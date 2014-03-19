@@ -19,16 +19,17 @@ var cssStr2 = 'background:#f6f6f6;';
 * @jdf.compressJs
 */
 //define has id, require
-console.log(compress.js('./lib/js1.js'));
-// console.log(compress.js('./lib/js2.js'));
+var isdebug = true;
+// console.log(compress.js('./lib/js1.js', isdebug));
+// console.log(compress.js('./lib/js2.js', isdebug));
 
 //define has require, no id
-// console.log(compress.js('./lib/js3.js'));
-
-// console.log(compress.js('./lib/js4.js'));
+// console.log( compress.js('./lib/js3.js', isdebug) );
+console.log(compress.js('./lib/js4.js', isdebug));
 
 //seajs.use
-// console.log(compress.js('./lib/js5.js'));
+console.log(compress.js('./lib/js5.js', isdebug));
+console.log(compress.js('./lib/js6.js', isdebug));
 
 /**
 * @f.copy

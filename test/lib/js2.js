@@ -1,4 +1,4 @@
-define('unit/test/test.js',function(require, exports, module) {
+define( 'unit/test/test.js' , function(require, exports, module) {
 	var lib = require('unit/lib/lib.js');
 	var lib2 = require('unit/lib2/lib2.js');
 	var lib3 = require('http://wwww.unit/lib3.js');
