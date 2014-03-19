@@ -20,13 +20,15 @@ var cssStr2 = 'background:#f6f6f6;';
 */
 //define has id, require
 console.log(compress.js('./lib/js1.js'));
-console.log(compress.js('./lib/js2.js'));
+// console.log(compress.js('./lib/js2.js'));
 
 //define has require, no id
-//console.log(compress.js('./lib/js3.js'));
+// console.log(compress.js('./lib/js3.js'));
+
+// console.log(compress.js('./lib/js4.js'));
 
 //seajs.use
-//console.log(compress.js('./lib/js5.js'));
+// console.log(compress.js('./lib/js5.js'));
 
 /**
 * @f.copy
