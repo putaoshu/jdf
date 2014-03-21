@@ -1,8 +1,7 @@
 define(function(require, exports) {
-	  seajs.use('js/Libs/base/unit/login/login.js', function (login) {  });
-	  seajs.use('js/Libs/base/unit/login/login.js', function (login) {  });
-	  seajs.use('js/Libs/base/unit/login/login.js', function (login) {  });
-	  seajs.use('js/Libs/base/unit/login/login.js', function (login) {  });
-	  seajs.use('js/Libs/base/unit/login/login.js', function (login) {  });
-	  seajs.use('js/Libs/base/unit/login/login.js', function (login) {  });
+	  seajs.use('/js/test.js');
+	  seajs.use('/js/test.js', function (test) {  });
+	  seajs.use('/js/test.js', function (test) {  });
+	  seajs.use('/js/test.js', function (test) {  });
+	  seajs.use('/js/test.js', function (test) {  });
 })
