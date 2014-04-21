@@ -1,0 +1,22 @@
+##-------------set---------------------------
+
+#set($count = 100 ) 
+count $count
+hello world $name
+
+##-------------if,else判断--------------------------
+
+#set ($admin = "admin")
+#set ($user = "user")
+#if ($admin == $user)
+Welcome admin!
+#else
+Welcome user!
+#end
+
+##-----------foreach($velocityCount为列举序号，默认从1开始，可调整)
+
+#foreach( $list in $articaldata )
+$list.title
+$velocityCount
+#end
