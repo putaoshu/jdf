@@ -14,34 +14,35 @@
 
 ## 功能介绍
 
-*   跨平台:完美支持windows、mac、linux等系统
-*   项目配置:支持为项目创建一个配置文件，按选项统一编译
-*   错误提示:在编译过程中如果遇到语法的错误，在控制台可以输出错误信息，方便定位代码错误位置
-*   支持本地，联调，线上三种开发流程
-*   支持公共widget的引用，预览，安装和发布
-*   可生成标准化的项目文件夹
-*   支持给所有静态资源添加CDN域名前缀或后缀戳
-*   支持css引用的所有链接生成combo格式
-*   支持文件夹或者单独文件css和js文件压缩
-*   支持less，sass实时监听文件，当文件改变时自动执行编译成css
-*   支持cmd模块自动提取文件id和dependencies，压缩时保留require关键字
-*   支持备份当前工程文件
-*   内置png图片压缩插件，支持将png24压缩为png8
-*   内置本地开发调试服务器，支持html和静态文件预览，以及当前目录浏览
-*   支持文件监听，保存后文件即可在浏览器即时预览
-*   支持上传到远端服务器，利用文件监听，即实现本地文件保存后可上传至远端服务器
-*   编码统一化，即无论当前文件格式是gbk，gb2312，utf8，utf8-bom，统一输出utf8
-*   多条命令，可满足不同的开发需求
+* 跨平台:完美支持windows、mac、linux等系统
+* 项目配置:支持为项目创建一个配置文件，按选项统一编译
+* 错误提示:在编译过程中如果遇到语法的错误，在控制台可以输出错误信息，方便定位代码错误位置
+* 支持volicity模板编译，可供前后端共享模板
+* 支持本地，联调，线上三种开发流程
+* 支持公共widget的引用，预览，安装和发布
+* 可生成标准化的项目文件夹
+* 支持给所有静态资源添加CDN域名前缀或后缀戳
+* 支持css引用的所有链接生成combo格式
+* 支持文件夹或者单独文件css和js文件压缩
+* 支持less，sass实时监听文件，当文件改变时自动执行编译成css
+* 支持cmd模块自动提取文件id和dependencies，压缩时保留require关键字
+* 支持备份当前工程文件
+* 内置png图片压缩插件，支持将png24压缩为png8
+* 内置本地开发调试服务器，支持html和静态文件预览，以及当前目录浏览
+* 支持文件监听，保存后文件即可在浏览器即时预览
+* 支持上传到远端服务器，利用文件监听，即实现本地文件保存后可上传至远端服务器
+* 编码统一化，即无论当前文件格式是gbk，gb2312，utf8，utf8-bom，统一输出utf8
+* 多条命令，可满足不同的开发需求
 
 ## 安装使用
 
 *   jdf基于nodejs
 	*   [nodejs安装](http://nodejs.org/download/)
-    *   node版本需要 >=0.8.0
+	*   node版本需要 >=0.8.0
 *   安装jdf
-        *   npm install jdf **-g** --save-dev
+	* npm install jdf **-g** --save-dev
 *   安装测试
-        *   执行 jdf -v 如果出现版本号则说明你已安装成功
+	* 执行 jdf -v 如果出现版本号则说明你已安装成功
 
 ## 示例演示
 
@@ -65,10 +66,10 @@
     *   输出目录
     *   上线目录
 *   [ui和unit组件目录规范](https://github.com/putaoshu/jdf-doc/blob/master/dir.md#ui%E5%92%8Cunit%E7%BB%84%E4%BB%B6%E7%9B%AE%E5%BD%95%E8%A7%84%E8%8C%83)
-        *   ui和unit目录
+	*  ui和unit目录
 *   [widget目录规范](https://github.com/putaoshu/jdf-doc/blob/master/dir.md#widget%E7%9B%AE%E5%BD%95%E8%A7%84%E8%8C%83)
-        *   widget目录
-		*   widget目录细化
+	* widget目录
+	* widget目录细化
 
 ## widget组件
 
@@ -91,6 +92,20 @@
 *   [本地调试](https://github.com/putaoshu/jdf-doc/blob/master/js.md#%E6%9C%AC%E5%9C%B0%E8%B0%83%E8%AF%95)
 *   [最佳实践](https://github.com/putaoshu/jdf-doc/blob/master/js.md#%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)
 *   [依赖管理方案](https://github.com/putaoshu/jdf-doc/blob/master/depend.md)
+
+##vm模板
+
+* [设计原则](https://github.com/putaoshu/jdf-doc/blob/master/vm.md#设计原则)
+* [velocity模板引挚](https://github.com/putaoshu/jdf-doc/blob/master/vm.md#velocity模板引挚)
+* [目录结构](https://github.com/putaoshu/jdf-doc/blob/master/vm.md#目录结构)
+* [引用方法](https://github.com/putaoshu/jdf-doc/blob/master/vm.md#引用方法)
+* [velocity基本语法](https://github.com/putaoshu/jdf-doc/blob/master/vm.md#velocity基本语法)
+* [velocity语法详解](https://github.com/putaoshu/jdf-doc/blob/master/vm.md#velocity语法详解)
+* [数据源举例](https://github.com/putaoshu/jdf-doc/blob/master/vm.md#数据源举例)
+
+##集成工具使用
+*   [LiveReload](https://github.com/putaoshu/jdf-doc/blob/master/livereload.md)
+
 
 ## 配置API
 
