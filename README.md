@@ -4,6 +4,9 @@
 
 [![NPM](https://nodei.co/npm/jdf.png?downloads=true)](https://nodei.co/npm/jdf/)
 
+## 更新日志
+
+* [changelog](https://github.com/putaoshu/jdf/blob/master/CHANGELOG.md)
 
 ## 关于jdf
 
