@@ -1,3 +1,7 @@
+# 1.3.21 / 2014-6-2 21:59:10
+* [new]!!!本地服务器支持映射线上cdn路径:即本地项目有文件则从本地取文件,如果本地没有,则从cdn上取
+* [fix]配置文件本地服务器端口3000修改为80
+
 # 1.3.2 / 2014-5-24 8:28:00
 * [new]!!!支持静态资源不加CDN输出:适应于后台系统,静态资源不放CDN而放在后端系统中
 * [new]widget引用的js文件打包时增加配置:默认不打包合并
@@ -6,12 +10,6 @@
 * [new]tpl/vm内的css/js url加前缀
 * [new]增加$.uniq数组去重;重构$.merageObj;
 * [bug]Mac svn下的项目,删除文件时由于系统权限问题会出现异常
-
-# 1.3.X todo
-* [todo]widget在注释区块内不引用
-* [todo]jslint/css,js,html代码美化/html压缩/
-* [todo]css sprites
-* [todo]livereload仅刷新修改后css
 
 # 1.3.18 / 2014-5-22 13:14:35
 * [bug]项目文件夹无html时无法output
