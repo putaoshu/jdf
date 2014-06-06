@@ -1,7 +1,7 @@
 {
   "name": "jdf",
   "description": "jdf fe tool",
-  "version": "1.3.21", 
+  "version": "1.3.23", 
   "author": {
     "name": "jdf",
     "email": "putaoshu@126.com"
@@ -34,7 +34,7 @@
     "node-watch": "0.3.4",
     "tar": "0.1.19",
     "uglify-js": "2.4.12",
-    "clean-css": "2.1.0",
+    "clean-css": "2.1.8",
     "ftp": "0.3.6",
     "node-sass": "0.8.1",
     "less": "1.3.3",
