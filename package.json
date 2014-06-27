@@ -1,7 +1,7 @@
 {
   "name": "jdf",
   "description": "jdf fe tool",
-  "version": "1.3.4", 
+  "version": "1.3.5", 
   "author": {
     "name": "jdf",
     "email": "putaoshu@126.com"
@@ -40,6 +40,7 @@
     "less": "1.3.3",
     "velocityjs": "0.4.3",
     "node-pngquant-native": "0.0.4",
-    "ws": "0.4.31"
+    "ws": "0.4.31",
+    "atropa-jslint": "0.1.2"
   }
 }

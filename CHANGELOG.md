@@ -1,3 +1,6 @@
+#1.3.5 / 2014-6-27 15:40:00
+* [new]增加jslint js代码检查功能，即jdf jslint或者 jdf jslint js文件名/文件夹名
+
 #1.3.4 / 2014-6-23 10:38:00
 * [new]自动生成widget模块目录 即jdf widget -create name
 * [new]获取服务端widget模块列表 即jdf widget -list
