@@ -1,3 +1,11 @@
+#1.3.6 / 2014-7-5 07:54:00
+[new]!!!增加css sprite图片合并功能
+[new]文档更新：项目路径转换，css sprite
+[bug]本地server中断退出：未绑定error引起
+[bug]删除文件夹时报错：win/mac系统提示有权限问题时，保留nodejs原生错误提示
+[fix]output.js引入promises模块Q，同时优化代码结构
+[fix]log和command前后顺序调整
+
 #1.3.5 / 2014-6-27 15:40:00
 * [new]增加jslint js代码检查功能，即jdf jslint或者 jdf jslint js文件名/文件夹名
 
