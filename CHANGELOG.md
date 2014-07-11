@@ -1,3 +1,6 @@
+#1.3.7 / 2014-7-11 16:15:00
+[new]增加csslint功能：jdf csslint或者通过config.json中build.csslint开头设置
+
 #1.3.61 / 2014-7-6 18:57:21
 [fix]本地server前后台文件同步，增加删除文件状态同步
 
