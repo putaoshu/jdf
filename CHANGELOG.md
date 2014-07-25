@@ -1,5 +1,8 @@
+#1.3.9 / 2014-7-25 17:22:00
+[update]node-sass升级至0.9.3
+
 #1.3.8 / 2014-7-23 15:27:00
-[new]增加newcdn参数：不需要配置cdn的hosts，通过 `jdf upload -nc` 可上传css/js至serverDir，通过 `jdf upload -nh` 可上传html至previewServerDir，同时cdn会被替换成newcdn
+[new]增加newcdn参数：不需要配置cdn的host即可预览页面，通过 `jdf upload -nc` 可上传css/js至serverDir，通过 `jdf upload -nh` 可上传html至previewServerDir，同时cdn会被替换成newcdn
 
 #1.3.7 / 2014-7-11 16:15:00
 [new]增加csslint功能：jdf csslint或者通过config.json中build.csslint开头设置
