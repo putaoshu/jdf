@@ -1,5 +1,11 @@
+#1.4.1 / 2014-8-1 16:11:00
+[bug]css内容为空sass编译会报错
+
+#1.4.0 / 2014-7-29 13:38:00
+[fix]$.httpget增加延时处理
+
 #1.3.9 / 2014-7-25 17:22:00
-[update]node-sass升级至0.9.3
+[update]node-sass升级至0.9.3,解决css expression的问题
 
 #1.3.8 / 2014-7-23 15:27:00
 [new]增加newcdn参数：不需要配置cdn的host即可预览页面，通过 `jdf upload -nc` 可上传css/js至serverDir，通过 `jdf upload -nh` 可上传html至previewServerDir，同时cdn会被替换成newcdn
