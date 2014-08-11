@@ -1,3 +1,8 @@
+#1.4.6 / 2014-8-11 13:43:00
+[add]jdf widget -create时文件类型可选择
+[add]jdf install init时加上meta,keyword和默认jdf介绍方案
+[fix]jdf.upload配置错误增加提示
+
 #1.4.5 / 2014-8-7 13:07:00
 [bug]widget中样式引用图片为css文件夹中图片输出路径有误
 [bug]生成的config.json格式有误
