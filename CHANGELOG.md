@@ -1,47 +1,50 @@
+#1.4.7 / 2014-8-14 11:03:00
+* [add]输出图片增加时间戳后缀配置
+
 #1.4.6 / 2014-8-11 13:43:00
-[add]jdf widget -create时文件类型可选择
-[add]jdf install init时加上meta,keyword和默认jdf介绍方案
-[fix]jdf.upload配置错误增加提示
+* [add]jdf widget -create时文件类型可选择
+* [add]jdf install init时加上meta,keyword和默认jdf介绍方案
+* [fix]jdf.upload配置错误增加提示
 
 #1.4.5 / 2014-8-7 13:07:00
-[bug]widget中样式引用图片为css文件夹中图片输出路径有误
-[bug]生成的config.json格式有误
+* [bug]widget中样式引用图片为css文件夹中图片输出路径有误
+* [bug]生成的config.json格式有误
 
 #1.4.4 / 2014-8-6 19:18:00
-[fix]css输出debug模块图片前缀未替换
+* [fix]css输出debug模块图片前缀未替换
 
 #1.4.3 / 2014-8-4 17:16:00
-[add]js/css输出时增加combo配置项
-[bug]css sprite输出的路径未加cdn
+* [add]js/css输出时增加combo配置项
+* [bug]css sprite输出的路径未加cdn
 
 #1.4.2 / 2014-8-4 10:40:00
-[bug]css/js文件内容为空时页面会引用此文件
+* [bug]css/js文件内容为空时页面会引用此文件
 
 #1.4.1 / 2014-8-1 16:11:00
-[bug]css内容为空sass编译会报错
+* [bug]css内容为空sass编译会报错
 
 #1.4.0 / 2014-7-29 13:38:00
-[fix]$.httpget增加延时处理
+* [fix]$.httpget增加延时处理
 
 #1.3.9 / 2014-7-25 17:22:00
-[update]node-sass升级至0.9.3,解决css expression的问题
+* [update]node-sass升级至0.9.3,解决css expression的问题
 
 #1.3.8 / 2014-7-23 15:27:00
-[new]增加newcdn参数：不需要配置cdn的host即可预览页面，通过 `jdf upload -nc` 可上传css/js至serverDir，通过 `jdf upload -nh` 可上传html至previewServerDir，同时cdn会被替换成newcdn
+* [new]增加newcdn参数：不需要配置cdn的host即可预览页面，通过 `jdf upload -nc` 可上传css/js至serverDir，通过 `jdf upload -nh` 可上传html至previewServerDir，同时cdn会被替换成newcdn
 
 #1.3.7 / 2014-7-11 16:15:00
-[new]增加csslint功能：jdf csslint或者通过config.json中build.csslint开头设置
+* [new]增加csslint功能：jdf csslint或者通过config.json中build.csslint开头设置
 
 #1.3.61 / 2014-7-6 18:57:21
-[fix]本地server前后台文件同步，增加删除文件状态同步
+* [fix]本地server前后台文件同步，增加删除文件状态同步
 
 #1.3.6 / 2014-7-5 07:54:00
-[new]!!!增加css sprite图片合并功能
-[new]文档更新：项目路径转换，css sprite
-[bug]本地server中断退出：未绑定error引起
-[bug]删除文件夹时报错：win/mac系统提示有权限问题时，保留nodejs原生错误提示
-[fix]output.js引入promises模块Q，同时优化代码结构
-[fix]log和command前后顺序调整
+* [new]!!!增加css sprite图片合并功能
+* [new]文档更新：项目路径转换，css sprite
+* [bug]本地server中断退出：未绑定error引起
+* [bug]删除文件夹时报错：win/mac系统提示有权限问题时，保留nodejs原生错误提示
+* [fix]output.js引入promises模块Q，同时优化代码结构
+* [fix]log和command前后顺序调整
 
 #1.3.5 / 2014-6-27 15:40:00
 * [new]增加jslint js代码检查功能，即jdf jslint或者 jdf jslint js文件名/文件夹名
