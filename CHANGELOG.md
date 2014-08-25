@@ -1,3 +1,7 @@
+#1.4.9 / 2014-8-25 10:30:00
+* [add]js压缩支持配置去除console
+* [fix]png压缩插件升级
+
 #1.4.8 / 2014-8-22 15:34:00
 * [add]vm模板支持嵌套,语法: #parse("../test/test.vm"),作用:引入test widget的vm,js和css
 
