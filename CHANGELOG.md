@@ -1,3 +1,7 @@
+#1.5.7 / 2014-9-29 17:02:00
+* [fix]widget build dir
+* [fix]static url replace
+
 #1.5.6 / 2014-9-24 17:43:00
 * [add]增加文件合并功能
 * [fix]js combo
