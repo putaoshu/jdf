@@ -45,6 +45,7 @@
     "node-images": "1.5.5",
     "q": "1.0.1",
     "simple-prompt": "0.2.1",
-    "csslint": "0.10.0"
+    "csslint": "0.10.0",
+    "htmllint": "0.0.7"
   }
 }
