@@ -46,6 +46,7 @@
     "q": "1.0.1",
     "simple-prompt": "0.2.1",
     "csslint": "0.10.0",
-    "htmllint": "0.0.7"
+    "htmllint": "0.0.7",
+    "colors": "1.0.2"
   }
 }
