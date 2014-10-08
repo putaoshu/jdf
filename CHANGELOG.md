@@ -1,6 +1,7 @@
 #1.5.7 / 2014-9-29 17:02:00
-* [fix]widget build dir
-* [fix]static url replace
+* [fix]widget编译取编译文件夹内所有文件
+* [fix]一般引用的js/css路径加前缀修正
+* [bug]seajs.use路径加前缀修正
 
 #1.5.6 / 2014-9-24 17:43:00
 * [add]增加文件合并功能
