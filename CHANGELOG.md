@@ -1,3 +1,7 @@
+#1.5.8 / 2014-10-10 11:41:00
+* [add]jdf htmllint
+* [fix]widget位置build和output时默认置于页面底部
+
 #1.5.7 / 2014-9-29 17:02:00
 * [fix]widget编译取编译文件夹内所有文件
 * [fix]一般引用的js/css路径加前缀修正
