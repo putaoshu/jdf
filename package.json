@@ -1,7 +1,11 @@
 {
   "name": "jdf",
   "description": "jd fe tool",
+<<<<<<< HEAD
   "version": "1.5.72",
+=======
+  "version": "1.5.8", 
+>>>>>>> f6246320ff6068a4ac120d26455f90d03efc942e
   "author": {
     "name": "jdf",
     "email": "putaoshu@126.com"
