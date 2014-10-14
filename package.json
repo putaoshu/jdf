@@ -1,7 +1,7 @@
 {
   "name": "jdf",
   "description": "jd fe tool",
-  "version": "1.5.72", 
+  "version": "1.5.72",
   "author": {
     "name": "jdf",
     "email": "putaoshu@126.com"
@@ -26,27 +26,28 @@
     "url": "https://github.com/putaoshu/jdf.git"
   },
   "bugs": {
-      "url": "http://github.com/putaoshu/jdf/issues" 
+    "url": "http://github.com/putaoshu/jdf/issues"
   },
   "preferGlobal": true,
   "readmeFilename": "README.md",
   "dependencies": {
-    "node-watch": "0.3.4",
-    "tar": "0.1.19",
-    "uglify-js": "2.4.12",
-    "clean-css": "2.1.8",
-    "ftp": "0.3.6",
-    "node-sass": "0.9.3",
-    "less": "1.3.3",
-    "velocityjs": "0.4.3",
-    "node-pngquant-native": "0.0.11",
-    "ws": "0.4.31",
     "atropa-jslint": "0.1.2",
+    "clean-css": "2.1.8",
+    "colors": "1.0.2",
+    "csslint": "0.10.0",
+    "ftp": "0.3.6",
+    "htmllint": "0.0.7",
+    "less": "1.3.3",
     "node-images": "1.5.5",
+    "node-pngquant-native": "0.0.11",
+    "node-sass": "0.9.3",
+    "node-watch": "0.3.4",
     "q": "1.0.1",
     "simple-prompt": "0.2.1",
-    "csslint": "0.10.0",
-    "htmllint": "0.0.7",
-    "colors": "1.0.2"
+    "tar": "0.1.19",
+    "uglify-js": "2.4.12",
+    "urllib-sync": "^1.0.1",
+    "velocityjs": "0.4.3",
+    "ws": "0.4.31"
   }
 }
