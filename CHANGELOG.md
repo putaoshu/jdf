@@ -1,3 +1,6 @@
+#1.5.9 /2014-10-14 10:02:00
+* [bug]build css include uniq
+
 #1.5.8 / 2014-10-10 11:41:00
 * [add]jdf htmllint
 * [fix]widget位置build和output时默认置于页面底部
