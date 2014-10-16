@@ -1,5 +1,6 @@
 #1.5.9 /2014-10-14 10:02:00
 * [bug]build css include uniq
+* [fix]mkdir before css sprite
 
 #1.5.8 / 2014-10-10 11:41:00
 * [add]jdf htmllint
