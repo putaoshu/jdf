@@ -1,3 +1,6 @@
+#1.5.92 /2014-10-16 15:32:00
+* [bug]css_sprite背景图片路径修正
+
 #1.5.9 /2014-10-14 10:02:00
 * [bug]build css include uniq
 * [fix]mkdir before css sprite
