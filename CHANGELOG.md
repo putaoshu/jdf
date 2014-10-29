@@ -1,3 +1,7 @@
+#1.6.1 / 2014-10-29 14:06:00
+* [fix]livereload下修改css/scss/less不刷新页面
+* [fix]执行jdf output时，会将widget/images全部复制到html/images中
+
 #1.6.0 / 2014-10-22 13:55:00
 * [fix]模块云服务器地址切换并增加配置
 
