@@ -1,4 +1,8 @@
-#1.6.1 / 2014-10-29 14:06:00
+#1.6.12 / 2014-13:23 13:23:00
+* [add]文件格式化功能
+* [fix]将原来的htmllint、csslint、jslint合并为一个lint命令
+
+#1.6.11 / 2014-10-29 14:06:00
 * [fix]livereload下修改css/scss/less不刷新页面
 * [fix]执行jdf output时，会将widget/images全部复制到html/images中
 
