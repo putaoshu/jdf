@@ -47,7 +47,6 @@
     "simple-prompt": "0.2.1",
     "tar": "0.1.19",
     "uglify-js": "2.4.12",
-    "urllib-sync": "^1.0.1",
     "velocityjs": "0.4.3",
     "ws": "0.4.31"
   }
