@@ -12,3 +12,4 @@
 .test11{background-image:url("i/test10.jpg");color:#ccc;}
 .test12{background-image:url('i/test12.jpg');}
 .test13{background-image:url( '  i/test13.jpg '  );}
+.test14{background:url(/i/test14.jpg);}
