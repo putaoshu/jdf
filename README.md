@@ -6,14 +6,14 @@
 
 ## 更新日志
 
-*   [changelog](https://github.com/putaoshu/jdf/blob/master/CHANGELOG.md)
+* [changelog](https://github.com/putaoshu/jdf/blob/master/CHANGELOG.md)
 
 ## 关于JDF
 
-*   JDF为JD前端开发集成解决方案
-*   目的是合理，快速和高效的解决前端开发中的工程和项目问题
-*   核心提供了前端开发必备的基础的UI和业务组件，并集成调试，构建，布署，代码生成，文档生成，编辑器插件等一系列开发工具
-*   同时提供了前端模块的下载，预览，发布
+* JDF为JD前端开发集成解决方案
+* 目的是合理，快速和高效的解决前端开发中的工程和项目问题
+* 核心提供了前端开发必备的基础的UI和业务组件，并集成调试，构建，布署，代码生成，文档生成，编辑器插件等一系列开发工具
+* 同时提供了前端模块的下载，预览，发布
 
 ## 功能介绍
 
@@ -51,35 +51,35 @@
 	* 执行 jdf -v 如果出现版本号则说明你已安装成功
 
 ## 集成工具
-*   [配置API](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_config.md)
-*   [命令手册](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_command.md)
-*   [less/sass编译/png压缩/js/css压缩](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_deploy.md)
-*   [LiveReload自动刷新浏览器](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_livereload.md)
-*   [html/js/css文件lint代码质量检查](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_lint.md)
-*   [html/js/css文件格式化](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_format.md)
-*   [csssprite图片合并](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_csssprite.md)
+* [配置API](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_config.md)
+* [命令手册](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_command.md)
+* [less/sass编译/png压缩/js/css压缩](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_deploy.md)
+* [LiveReload自动刷新浏览器](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_livereload.md)
+* [html/js/css文件lint代码质量检查](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_lint.md)
+* [html/js/css文件格式化](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_format.md)
+* [csssprite图片合并](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_csssprite.md)
 
 ## 工具示例
-*   [示例安装](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_example.md#示例安装)
-*   [示例演示](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_example.md#示例演示)
+* [示例安装](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_example.md#示例安装)
+* [示例演示](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_example.md#示例演示)
 
 ## 开发流程
-*   [新建工程目录](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_develop.md#新建工程目录)
-*   [项目开发](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_develop.md#项目开发)
-*   [项目本地调试](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_develop.md#项目本地调试)
-*   [项目输出](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_develop.md#项目输出)
-*   [项目联调和发布](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_develop.md#项目联调和发布)
-*   [项目备份](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_develop.md#项目备份)
-*   [工作流程对比](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_compare.md)
+* [新建工程目录](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_develop.md#新建工程目录)
+* [项目开发](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_develop.md#项目开发)
+* [项目本地调试](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_develop.md#项目本地调试)
+* [项目输出](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_develop.md#项目输出)
+* [项目联调和发布](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_develop.md#项目联调和发布)
+* [项目备份](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_develop.md#项目备份)
+* [工作流程对比](https://github.com/putaoshu/jdf/tree/master/doc/a_tool_compare.md)
 
 ## 方案规范
-*   [项目目录规范](https://github.com/putaoshu/jdf/tree/master/doc/core_dir_standard.md#项目目录规范)
+* [项目目录规范](https://github.com/putaoshu/jdf/tree/master/doc/core_dir_standard.md#项目目录规范)
 	* 项目目录
 	* 输出目录
 	* 上线目录
-*   [ui和unit组件目录规范](https://github.com/putaoshu/jdf/tree/master/doc/core_dir_standard.md#ui和unit组件目录规范)
+* [ui和unit组件目录规范](https://github.com/putaoshu/jdf/tree/master/doc/core_dir_standard.md#ui和unit组件目录规范)
 	* ui和unit目录
-*   [widget目录规范](https://github.com/putaoshu/jdf/tree/master/doc/core_dir_standard.md#widget目录规范)
+* [widget目录规范](https://github.com/putaoshu/jdf/tree/master/doc/core_dir_standard.md#widget目录规范)
 	* widget目录
 	* widget目录细化	
 
@@ -94,30 +94,30 @@
 *  [相关命令](https://github.com/putaoshu/jdf/tree/master/doc/core_widget.md#相关命令)
 
 ## js组件
-*   [组件类型](https://github.com/putaoshu/jdf/tree/master/doc/core_js.md#组件类型)
-*   [组件写法](https://github.com/putaoshu/jdf/tree/master/doc/core_js.md#组件写法)
-*   [引用方法](https://github.com/putaoshu/jdf/tree/master/doc/core_js.md#引用方法)
-*   [公共base引用](https://github.com/putaoshu/jdf/tree/master/doc/core_js.md#公共base引用)
-*   [页面头尾初始化](https://github.com/putaoshu/jdf/tree/master/doc/core_js.md#页面头尾初始化)
-*   [本地调试](https://github.com/putaoshu/jdf/tree/master/doc/core_js.md#本地调试)
-*   [最佳实践](https://github.com/putaoshu/jdf/tree/master/doc/core_js.md#最佳实践)
-*   [依赖管理方案](https://github.com/putaoshu/jdf/tree/master/doc/core_js_depend.md)
+* [组件类型](https://github.com/putaoshu/jdf/tree/master/doc/core_js.md#组件类型)
+* [组件写法](https://github.com/putaoshu/jdf/tree/master/doc/core_js.md#组件写法)
+* [引用方法](https://github.com/putaoshu/jdf/tree/master/doc/core_js.md#引用方法)
+* [公共base引用](https://github.com/putaoshu/jdf/tree/master/doc/core_js.md#公共base引用)
+* [页面头尾初始化](https://github.com/putaoshu/jdf/tree/master/doc/core_js.md#页面头尾初始化)
+* [本地调试](https://github.com/putaoshu/jdf/tree/master/doc/core_js.md#本地调试)
+* [最佳实践](https://github.com/putaoshu/jdf/tree/master/doc/core_js.md#最佳实践)
+* [依赖管理方案](https://github.com/putaoshu/jdf/tree/master/doc/core_js_depend.md)
 
 ##css组件
-*   [css组件](https://github.com/putaoshu/jdf/tree/master/doc/core_css.md#css组件)
-*   [ css优化策略](https://github.com/putaoshu/jdf/tree/master/doc/core_css_optimize.md# css优化策略)
+* [css组件](https://github.com/putaoshu/jdf/tree/master/doc/core_css.md#css组件)
+* [ css优化策略](https://github.com/putaoshu/jdf/tree/master/doc/core_css_optimize.md# css优化策略)
 
 ##vm模板
-*   [设计原则](https://github.com/putaoshu/jdf/tree/master/doc/core_vm.md#设计原则)
-*   [velocity模板引挚](https://github.com/putaoshu/jdf/tree/master/doc/core_vm.md#velocity模板引挚)
-*   [目录结构](https://github.com/putaoshu/jdf/tree/master/doc/core_vm.md#目录结构)
-*   [引用方法](https://github.com/putaoshu/jdf/tree/master/doc/core_vm.md#引用方法)
-*   [velocity基本语法](https://github.com/putaoshu/jdf/tree/master/doc/core_vm.md#velocity基本语法)
-*   [velocity语法详解](https://github.com/putaoshu/jdf/tree/master/doc/core_vm.md#velocity语法详解)
-*   [数据源举例](https://github.com/putaoshu/jdf/tree/master/doc/core_vm.md#数据源举例)
+* [设计原则](https://github.com/putaoshu/jdf/tree/master/doc/core_vm.md#设计原则)
+* [velocity模板引挚](https://github.com/putaoshu/jdf/tree/master/doc/core_vm.md#velocity模板引挚)
+* [目录结构](https://github.com/putaoshu/jdf/tree/master/doc/core_vm.md#目录结构)
+* [引用方法](https://github.com/putaoshu/jdf/tree/master/doc/core_vm.md#引用方法)
+* [velocity基本语法](https://github.com/putaoshu/jdf/tree/master/doc/core_vm.md#velocity基本语法)
+* [velocity语法详解](https://github.com/putaoshu/jdf/tree/master/doc/core_vm.md#velocity语法详解)
+* [数据源举例](https://github.com/putaoshu/jdf/tree/master/doc/core_vm.md#数据源举例)
 
 ## 编译器插件
-*   [Sublime Text2 插件](https://sublime.wbond.net/packages/Jdf%20-%20Tool)
+* [Sublime Text2 插件](https://sublime.wbond.net/packages/Jdf%20-%20Tool)
 
 ### update
 2014-12-10 
