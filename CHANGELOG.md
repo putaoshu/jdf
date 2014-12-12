@@ -1,3 +1,14 @@
+#todo
+* [bug]'jdf upload html/a.html'正常输出但上传失败
+
+#1.6.33 / 2014-12-12 14:20
+* [bug]serve端口占用时累加计算出错
+* [bug]mac下首次运行时报错'env: node\r: No such file or directory'
+* [fix]'jf install init'文档更新
+
+#1.6.3 / 2014-12-10
+* [add]jdf文档迁移至doc文件夹
+
 #1.6.2 / 2014-12-5 16:08:00
 * [fix]'i/a.png'和'http://cdn/i/a.png' css路径替换修正
 
