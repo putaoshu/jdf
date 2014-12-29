@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Jdf by putaoshu</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Jdf</h1>
+        <h2>JD前端集成解决方案</h2>
+        <a href="https://github.com/putaoshu/jdf" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="jdf-doc" class="anchor" href="#jdf-doc" aria-hidden="true"><span class="octicon octicon-link"></span></a>jdf doc</h1>
+
+<p><a href="http://badge.fury.io/js/jdf"><img src="https://badge.fury.io/js/jdf.png" alt="NPM version"></a></p>
+
+<p><a href="https://nodei.co/npm/jdf/"><img src="https://nodei.co/npm/jdf.png?downloads=true" alt="NPM"></a></p>
+
+<h2>
+<a id="更新日志" class="anchor" href="#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97" aria-hidden="true"><span class="octicon octicon-link"></span></a>更新日志</h2>
+
+<ul>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/CHANGELOG.md">changelog</a></li>
+</ul>
+
+<h2>
+<a id="关于jdf" class="anchor" href="#%E5%85%B3%E4%BA%8Ejdf" aria-hidden="true"><span class="octicon octicon-link"></span></a>关于JDF</h2>
+
+<ul>
+<li>JDF为JD前端开发集成解决方案</li>
+<li>目的是合理，快速和高效的解决前端开发中的工程和项目问题</li>
+<li>核心提供了前端开发必备的基础的UI和业务组件，并集成调试，构建，布署，代码生成，文档生成，编辑器插件等一系列开发工具</li>
+<li>同时提供了前端模块的下载，预览，发布</li>
+</ul>
+
+<h2>
+<a id="功能介绍" class="anchor" href="#%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D" aria-hidden="true"><span class="octicon octicon-link"></span></a>功能介绍</h2>
+
+<ul>
+<li>跨平台:完美支持windows、mac、linux等系统</li>
+<li>支持本地，联调，线上三种开发流程</li>
+<li>可生成标准化的项目文件夹</li>
+<li>项目配置:支持为项目创建一个配置文件，按选项统一编译</li>
+<li>错误提示:在编译过程中如果遇到语法的错误，在控制台可以输出错误信息，方便定位代码错误位置</li>
+<li>支持公共widget的引用，预览，安装和发布</li>
+<li>支持widget编译，内置widget编译引挚</li>
+<li>支持volicity模板编译，可供前后端共享模板</li>
+<li>支持less，sass实时监听文件，当文件改变时自动执行编译成css</li>
+<li>支持给所有静态资源添加CDN域名前缀或后缀戳</li>
+<li>支持js/css所引用的链接生成combo格式或者压缩一个文件</li>
+<li>支持文件夹或者单独文件css和js文件压缩</li>
+<li>支持cmd模块自动提取文件id和dependencies，压缩时保留require关键字</li>
+<li>支持png图片压缩插件，将png24压缩为png8</li>
+<li>支持备份当前工程文件</li>
+<li>支持本地静态文件预览，内置本地开发调试服务器，以及当前目录浏览</li>
+<li>支持文件监听，保存后文件即可在浏览器即时预览</li>
+<li>支持上传到远端服务器，利用文件监听，即实现本地文件保存后可上传至远端服务器</li>
+<li>支持html/js/css文件格式化</li>
+<li>支持html/js/css文件lint，代码质量检查</li>
+<li>编码统一化，即无论当前文件格式是gbk，gb2312，utf8，utf8-bom，统一输出utf8</li>
+<li>多条命令，可满足不同的开发需求</li>
+</ul>
+
+<h2>
+<a id="安装使用" class="anchor" href="#%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8" aria-hidden="true"><span class="octicon octicon-link"></span></a>安装使用</h2>
+
+<ul>
+<li>  jdf基于nodejs
+
+<ul>
+<li>  <a href="http://nodejs.org/download/">nodejs安装</a>
+</li>
+<li>  node版本需要 &gt;=0.8.0</li>
+</ul>
+</li>
+<li>  安装jdf
+
+<ul>
+<li>npm install jdf <strong>-g</strong>
+</li>
+</ul>
+</li>
+<li>  安装测试
+
+<ul>
+<li>执行 jdf -v 如果出现版本号则说明你已安装成功</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="集成工具" class="anchor" href="#%E9%9B%86%E6%88%90%E5%B7%A5%E5%85%B7" aria-hidden="true"><span class="octicon octicon-link"></span></a>集成工具</h2>
+
+<ul>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/a_tool_config.md">配置API</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/a_tool_command.md">命令手册</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/a_tool_deploy.md">less/sass编译/png压缩/js/css压缩</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/a_tool_livereload.md">LiveReload自动刷新浏览器</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/a_tool_lint.md">html/js/css文件lint代码质量检查</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/a_tool_format.md">html/js/css文件格式化</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/a_tool_csssprite.md">csssprite图片合并</a></li>
+</ul>
+
+<h2>
+<a id="工具示例" class="anchor" href="#%E5%B7%A5%E5%85%B7%E7%A4%BA%E4%BE%8B" aria-hidden="true"><span class="octicon octicon-link"></span></a>工具示例</h2>
+
+<ul>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/a_tool_example.md#%E7%A4%BA%E4%BE%8B%E5%AE%89%E8%A3%85">示例安装</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/a_tool_example.md#%E7%A4%BA%E4%BE%8B%E6%BC%94%E7%A4%BA">示例演示</a></li>
+</ul>
+
+<h2>
+<a id="开发流程" class="anchor" href="#%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B" aria-hidden="true"><span class="octicon octicon-link"></span></a>开发流程</h2>
+
+<ul>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/a_tool_develop.md#%E6%96%B0%E5%BB%BA%E5%B7%A5%E7%A8%8B%E7%9B%AE%E5%BD%95">新建工程目录</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/a_tool_develop.md#%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91">项目开发</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/a_tool_develop.md#%E9%A1%B9%E7%9B%AE%E6%9C%AC%E5%9C%B0%E8%B0%83%E8%AF%95">项目本地调试</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/a_tool_develop.md#%E9%A1%B9%E7%9B%AE%E8%BE%93%E5%87%BA">项目输出</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/a_tool_develop.md#%E9%A1%B9%E7%9B%AE%E8%81%94%E8%B0%83%E5%92%8C%E5%8F%91%E5%B8%83">项目联调和发布</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/a_tool_develop.md#%E9%A1%B9%E7%9B%AE%E5%A4%87%E4%BB%BD">项目备份</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/a_tool_compare.md">工作流程对比</a></li>
+</ul>
+
+<h2>
+<a id="方案规范" class="anchor" href="#%E6%96%B9%E6%A1%88%E8%A7%84%E8%8C%83" aria-hidden="true"><span class="octicon octicon-link"></span></a>方案规范</h2>
+
+<ul>
+<li>
+<a href="https://github.com/putaoshu/jdf/blob/master/doc/core_dir_standard.md#%E9%A1%B9%E7%9B%AE%E7%9B%AE%E5%BD%95%E8%A7%84%E8%8C%83">项目目录规范</a>
+
+<ul>
+<li>项目目录</li>
+<li>输出目录</li>
+<li>上线目录</li>
+</ul>
+</li>
+<li>
+<a href="https://github.com/putaoshu/jdf/blob/master/doc/core_dir_standard.md#ui%E5%92%8Cunit%E7%BB%84%E4%BB%B6%E7%9B%AE%E5%BD%95%E8%A7%84%E8%8C%83">ui和unit组件目录规范</a>
+
+<ul>
+<li>ui和unit目录</li>
+</ul>
+</li>
+<li>
+<a href="https://github.com/putaoshu/jdf/blob/master/doc/core_dir_standard.md#widget%E7%9B%AE%E5%BD%95%E8%A7%84%E8%8C%83">widget目录规范</a>
+
+<ul>
+<li>widget目录</li>
+<li>widget目录细化<br>
+</li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="widget组件" class="anchor" href="#widget%E7%BB%84%E4%BB%B6" aria-hidden="true"><span class="octicon octicon-link"></span></a>widget组件</h2>
+
+<ul>
+<li> <a href="https://github.com/putaoshu/jdf/blob/master/doc/core_widget.md#%E7%94%9F%E6%80%81%E5%9C%88">生态圈</a>
+</li>
+<li> <a href="https://github.com/putaoshu/jdf/blob/master/doc/core_widget.md#widget%E5%AE%9A%E4%B9%89">widget定义</a>
+</li>
+<li> <a href="https://github.com/putaoshu/jdf/blob/master/doc/core_widget.md#%E7%BB%84%E6%88%90%E5%BD%A2%E5%BC%8F">组成形式</a>
+</li>
+<li> <a href="https://github.com/putaoshu/jdf/blob/master/doc/core_widget.md#%E5%BC%95%E7%94%A8%E6%96%B9%E6%B3%95">引用方法</a>
+</li>
+<li> <a href="https://github.com/putaoshu/jdf/blob/master/doc/core_widget.md#%E5%BC%80%E5%8F%91%E7%9B%AE%E5%BD%95">开发目录</a>
+</li>
+<li> <a href="https://github.com/putaoshu/jdf/blob/master/doc/core_widget.md#%E9%A1%B5%E9%9D%A2%E8%BE%93%E5%87%BA">页面输出</a>
+</li>
+<li> <a href="https://github.com/putaoshu/jdf/blob/master/doc/core_widget.md#%E7%BC%96%E8%AF%91%E8%BE%93%E5%87%BA">编译输出</a>
+</li>
+<li> <a href="https://github.com/putaoshu/jdf/blob/master/doc/core_widget.md#%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4">相关命令</a>
+</li>
+</ul>
+
+<h2>
+<a id="js组件" class="anchor" href="#js%E7%BB%84%E4%BB%B6" aria-hidden="true"><span class="octicon octicon-link"></span></a>js组件</h2>
+
+<ul>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/core_js.md#%E7%BB%84%E4%BB%B6%E7%B1%BB%E5%9E%8B">组件类型</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/core_js.md#%E7%BB%84%E4%BB%B6%E5%86%99%E6%B3%95">组件写法</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/core_js.md#%E5%BC%95%E7%94%A8%E6%96%B9%E6%B3%95">引用方法</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/core_js.md#%E5%85%AC%E5%85%B1base%E5%BC%95%E7%94%A8">公共base引用</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/core_js.md#%E9%A1%B5%E9%9D%A2%E5%A4%B4%E5%B0%BE%E5%88%9D%E5%A7%8B%E5%8C%96">页面头尾初始化</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/core_js.md#%E6%9C%AC%E5%9C%B0%E8%B0%83%E8%AF%95">本地调试</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/core_js.md#%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5">最佳实践</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/core_js_depend.md">依赖管理方案</a></li>
+</ul>
+
+<h2>
+<a id="css组件" class="anchor" href="#css%E7%BB%84%E4%BB%B6" aria-hidden="true"><span class="octicon octicon-link"></span></a>css组件</h2>
+
+<ul>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/core_css.md#css%E7%BB%84%E4%BB%B6">css组件</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/core_css_optimize.md#%20css%E4%BC%98%E5%8C%96%E7%AD%96%E7%95%A5"> css优化策略</a></li>
+</ul>
+
+<h2>
+<a id="vm模板" class="anchor" href="#vm%E6%A8%A1%E6%9D%BF" aria-hidden="true"><span class="octicon octicon-link"></span></a>vm模板</h2>
+
+<ul>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99">设计原则</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#velocity%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%8C%9A">velocity模板引挚</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84">目录结构</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#%E5%BC%95%E7%94%A8%E6%96%B9%E6%B3%95">引用方法</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#velocity%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95">velocity基本语法</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#velocity%E8%AF%AD%E6%B3%95%E8%AF%A6%E8%A7%A3">velocity语法详解</a></li>
+<li><a href="https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#%E6%95%B0%E6%8D%AE%E6%BA%90%E4%B8%BE%E4%BE%8B">数据源举例</a></li>
+</ul>
+
+<h2>
+<a id="编译器插件" class="anchor" href="#%E7%BC%96%E8%AF%91%E5%99%A8%E6%8F%92%E4%BB%B6" aria-hidden="true"><span class="octicon octicon-link"></span></a>编译器插件</h2>
+
+<ul>
+<li><a href="https://sublime.wbond.net/packages/Jdf%20-%20Tool">Sublime Text2 插件</a></li>
+</ul>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/putaoshu/jdf/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/putaoshu/jdf/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/putaoshu/jdf"></a> is maintained by <a href="https://github.com/putaoshu">putaoshu</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
