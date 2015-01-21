@@ -6,6 +6,8 @@
 * [bug]修复widget的判断逻辑问题
 * [fix]替换jdf demo下载地址 2014-12-29
 * [bug]是否为图片url正则判断
+* [fix]widget中css combo时路径精简
+* [fix]Clean-css module disable aggressive merging of properties 2015-1-21
 
 ### 1.6.4 / 2014-12-16 15:39:00
 * [add]压缩使用多线程，减少多文件项目压缩时间

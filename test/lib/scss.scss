@@ -10,3 +10,7 @@
 	border:1px solid #ccc;
 	@include border-radius(10px);
 }
+
+/* has bug */
+*html b{color:#333;}
+*+html a{color:#666;}
