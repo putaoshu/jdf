@@ -1,5 +1,10 @@
 ##changelog
 
+### 1.6.6 / 2015-1-28 13:59:00
+* [bug]修复css sprite时，图片重名的问题
+* [add]combo支持??a.css,b.css
+* [add]combo文件时，自动在文件末尾添加分号
+
 ### 1.6.5 / 2014-12-24 16:53:00
 * [add]添加支持combo路径映射
 * [add]jdf output时可以去除html文件中的注释
