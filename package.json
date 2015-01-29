@@ -37,6 +37,7 @@
     "csslint": "0.10.0",
     "ftp": "0.3.6",
     "htmllint": "0.0.7",
+    "html-minifier": "0.6.9",
     "js-beautify": "1.5.4",
     "less": "1.3.3",
     "node-images": "1.5.5",
