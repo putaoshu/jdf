@@ -1,10 +1,12 @@
 ##changelog
 
 ### 1.6.6 / 2015-1-28 13:59:00
-* [bug]修复css sprite时，图片重名的问题
-* [add]combo支持??a.css,b.css
-* [add]combo文件时，自动在文件末尾添加分号
-* [add]添加html minify功能
+* [bug]修复cssSprite合并重名图片会发生错误的问题
+* [bug]修复jdf server访问非html，css，js文件抛异常的问题
+* [bug]修复jdf o/jdf u可以对单独文件进行操作
+* [add]添加jdf compress压缩html功能
+* [fix]优化combo文件合并方式
+* [fix]优化widget的解析方式
 
 ### 1.6.5 / 2014-12-24 16:53:00
 * [add]添加支持combo路径映射

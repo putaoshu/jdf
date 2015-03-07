@@ -40,6 +40,10 @@
 * 编码统一化，即无论当前文件格式是gbk，gb2312，utf8，utf8-bom，统一输出utf8
 * 多条命令，可满足不同的开发需求
 
+## 会议/视频
+
+* 	2014-10-25 D2前端技术论坛@杭州《京东前端工业化实践之路》 [PPT下载](http://vdisk.weibo.com/s/C30SUspJtf4sv) , 慕课[视频1](http://www.imooc.com/video/4679) [视频2](http://www.imooc.com/video/4680)
+
 ## 安装使用
 
 *   jdf基于nodejs
@@ -120,4 +124,4 @@
 * [Sublime Text2 插件](https://sublime.wbond.net/packages/Jdf%20-%20Tool)
 
 ### update
-2014-12-10 
+2015-3-7
