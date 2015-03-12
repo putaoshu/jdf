@@ -1,5 +1,10 @@
 ##changelog
 
+### 1.6.7 / 2015-3-12 11:35:00
+* [bug]修复某些项目无法上传的问题
+* [add]cssSprite可以自定义合并方式
+* [fix]多线程优化
+
 ### 1.6.6 / 2015-1-28 13:59:00
 * [bug]修复cssSprite合并重名图片会发生错误的问题
 * [bug]修复jdf server访问非html，css，js文件抛异常的问题
@@ -12,8 +17,8 @@
 * [add]添加支持combo路径映射
 * [add]jdf output时可以去除html文件中的注释
 * [bug]修复widget的判断逻辑问题
-* [fix]替换jdf demo下载地址 2014-12-29
 * [bug]是否为图片url正则判断
+* [fix]替换jdf demo下载地址 2014-12-29
 * [fix]widget中css combo时路径精简
 * [fix]Clean-css module disable aggressive merging of properties 2015-1-21
 
