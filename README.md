@@ -43,7 +43,9 @@
 ## 会议/视频/QQ群
 
 * 	2014-10-25 D2前端技术论坛@杭州《京东前端工业化实践之路》 [PPT下载](http://vdisk.weibo.com/s/C30SUspJtf4sv) , 慕课[视频1](http://www.imooc.com/video/4679) [视频2](http://www.imooc.com/video/4680)
-* 	JDF技术支持QQ群号: 305542952
+* 	JDF技术支持
+	* QQ群号: 305542952
+	* 咚咚群号: 815294
 
 ## 安装使用
 
