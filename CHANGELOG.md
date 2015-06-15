@@ -1,5 +1,10 @@
 ##changelog
 
+### 1.7.0 / 2015-6-15 16:43:00
+* [fix]升级部分组件的版本
+* [fix]根据官方用法，修正node-sass的调用方式
+* [bug]修复jdf server抛异常问题
+
 ### 1.6.8 / 2015-3-17 14:18:00
 * [fix]可以给cssSprite后的图片加时间戳，并可自定义形式
 * [fix]修改cssSpriteMode参数的默认值
