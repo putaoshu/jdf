@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Examples</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="" rel="stylesheet">
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+    $.ajax({
+        url: '/test/upload.html?aaa=bbb',
+        type: 'POST',
+        dataType: 'jsonp',
+        success: function(data) {
+            console.log(data);
+        },
+        fail: function() {
+            console.log('error happend.');
+        }
+    });
+    </script>
+</body>
+</html>
