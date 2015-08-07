@@ -1,7 +1,7 @@
 {
   "name": "jdf",
   "description": "JD前端开发集成解决方案",
-  "version": "1.7.5",
+  "version": "1.7.7",
   "author": {
     "name": "jdf",
     "email": "putaoshu@126.com"
@@ -39,7 +39,7 @@
     "html-minifier": "0.6.9",
     "htmllint": "0.0.7",
     "iconv-lite": "^0.4.10",
-    "images": "2.1.6",
+    "jdf-images": "^1.0.0",
     "jdf-png-native": "^1.0.0",
     "jdf-sass": "^1.0.9",
     "jdf-ws": "^1.0.3",
