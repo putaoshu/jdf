@@ -40,16 +40,16 @@
     "htmllint": "0.0.7",
     "iconv-lite": "^0.4.10",
     "images": "2.1.6",
+    "jdf-png-native": "^1.0.0",
+    "jdf-sass": "^1.0.9",
+    "jdf-ws": "^1.0.3",
     "js-beautify": "1.5.4",
     "less": "1.3.3",
-    "node-pngquant-native": "0.2.3",
-    "node-sass": "3.0.0",
     "node-watch": "0.3.4",
     "q": "1.0.1",
     "simple-prompt": "0.2.1",
     "tar": "0.1.19",
     "uglify-js": "2.4.12",
-    "velocityjs": "0.4.3",
-    "ws": "0.4.31"
+    "velocityjs": "0.4.3"
   }
 }
