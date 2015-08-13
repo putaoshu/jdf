@@ -3,6 +3,7 @@
 ### 1.7.6 / 2015-8-4 14:43:00
 * 支持css hack
 * 优化node-sass、node-pngquant-native、ws三个组件，提高下载速度
+* 支持自定义hasBanner的形式：时间戳、md5值
 
 ### 1.7.1 / 2015-6-17 17:36:00
 * 支持编译gbk编码的文件

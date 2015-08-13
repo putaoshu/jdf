@@ -97,9 +97,15 @@ var configJsonFileContent{
 	
 	* `"combineWidgetJs":false` - 合并所有引用的widget中的js
 
-	* `"hasBanner": true` - 压缩后的js和css是否有banner前缀，也就是下面代码示例的第一行注释
+	* `"hasBanner": 1` - 压缩后的js和css是否有banner前缀，支持三种形式：`0`，不需要banner；`1`，banner为时间戳的形式，`2`，banner为md5值。
+	下面代码示例的第一行注释为时间戳形式的banner
 	```css
-	/* Test w1.css md5:a4cea09ff1988ab5b1ca8b93b1167fcc */
+	/* Test w1.css Date:2015-08-13 15:04:07 */
+	.list{background:url(http://misc.360buyimg.com/Test/widget/w1/i/icon.png)}
+	```
+	下面代码示例的第一行注释为md5值形式的banner
+	```css
+	/* Test w1.css md5:f4fe4a055715c703557d008daf868c43 */
 	.list{background:url(http://misc.360buyimg.com/Test/widget/w1/i/icon.png)}
 	```
 
