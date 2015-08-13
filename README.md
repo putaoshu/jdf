@@ -125,6 +125,3 @@
 
 ## 编译器插件
 * [Sublime Text2 插件](https://sublime.wbond.net/packages/Jdf%20-%20Tool)
-
-### update
-2015-3-7
