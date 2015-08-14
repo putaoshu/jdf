@@ -72,7 +72,11 @@ var configJsonFileContent{
 	
 	* `"less":true` - 是否开启less编译
 	
-	* `"csslint":false` - 是否开启csslint
+	* `"csslint": false` - 是否开启csslint
+
+	* `"weinre": false` - 是否开启移动设备调试
+
+	* `weinreUrl: "http://123.56.105.44:8080"` - 调试移动设备的服务器地址
 
 * `"output"`
 	* `"concat":{}` - 文件合并
