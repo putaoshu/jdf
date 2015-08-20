@@ -127,6 +127,14 @@ var configJsonFileContent{
 	
 	* `"cssSpriteMargin":10` - css sprite图片之间的间距
 
+	* `base64: false` - 是否对图片进行base64编码
+	```css
+	background: url(i/icon13.png?__base64) no-repeat center right;
+	```
+	```css
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAUCAMAAABlGZcgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAEhQTFRF////yBYj/PHyyyQwzSw4+unq++/vzCYz5I+V5IyS887Q/PT11lBZ2Fhh2V1m1EdS+ebo00VP7ri877q+2Ftkzi868cXJ773BjJeJ4QAAAFJJREFUeNpiYCAIxPgZIUBQGMxn4eEC01wi7GCakRWqkI2RCcyH62SmDV8AzT5eiANY+aB8BIDzORk4UPjcDNxwvihcHuIfcRaobhYhwoEDEGAAD1wBuVXYWesAAAAASUVORK5CYII=) no-repeat center right}
+	```
+
 	* `"imagesSuffix": 0`
 	0：不添加任何后缀
 	1：给css中需要cssSprite的背景图添加后缀，后缀会被添加在文件扩展名的后面。例如：`test.png => test.png?20150319161000`
