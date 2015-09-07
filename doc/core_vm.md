@@ -92,6 +92,12 @@ velocity模板语法的javascript实现，Velocity是基于Java的模板引擎�
 
 * 7.[todo多个文件用逗号隔开]
 
+* 8.简单遍历多个div
+        #foreach( $i in [1,2,3,4] )
+            <div>$i</div>
+        #end
+
+
 
 ##数据源举例
 
