@@ -1,5 +1,8 @@
 ##changelog
 
+### 1.8.12 / 2015-9-9 15:55:00
+* [bug]jdf处理base64编码抛异常
+
 ### 1.8.1 / 2015-9-7 15:37:00
 * 修复jdf o -html报错：Not a PNG file
 
