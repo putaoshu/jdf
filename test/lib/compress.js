@@ -68,6 +68,11 @@ describe('Compress', function(){
 			f.write('../dest/js7.js', result);
 		});
 
+		it('给seajs.use添加cdn', function(){
+			var result = compress.js('../src/js8.js', isdebug);
+			f.write('../dest/js8.js', result);
+		})
+
 	});
 	
 });
