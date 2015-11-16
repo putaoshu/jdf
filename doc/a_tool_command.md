@@ -23,6 +23,7 @@ jdf的详细配置文档，可点击[这里](a_tool_config.html)进行查阅。
 
 * `-open`，在开启本地服务的同时，自动打开`html/index.html`
 * `-css xxx`，把less/sass编译为css
+* `-plain`，编译项目引用的widget，sass文件，并不对文件进行任何形式的压缩和替换
 
 ## jdf output
 

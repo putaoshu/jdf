@@ -1,7 +1,7 @@
 {
   "name": "jdf",
   "description": "JD前端开发集成解决方案",
-  "version": "1.8.0",
+  "version": "1.8.15",
   "author": {
     "name": "jdf",
     "email": "putaoshu@126.com"
@@ -18,7 +18,8 @@
     "node": ">= 0.8.0"
   },
   "main": "index.js",
-  "scripts": {    "test": "test/test.js"
+  "scripts": {
+    "test": "test/test.js"
   },
   "repository": {
     "type": "git",

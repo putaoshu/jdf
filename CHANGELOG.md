@@ -1,5 +1,9 @@
 ##changelog
 
+### 1.8.13 / 2015-11-4 10:50:00
+* jdf widget -install支持依赖自动下载安装
+* jdf output -plain，只解析编译widget、sass，不对文件进行任何替换压缩操作
+
 ### 1.8.12 / 2015-9-9 15:55:00
 * [bug]jdf处理base64编码抛异常
 
