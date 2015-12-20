@@ -125,3 +125,7 @@
 
 ## 编译器插件
 * [Sublime Text2 插件](https://sublime.wbond.net/packages/Jdf%20-%20Tool)
+
+## contributor
+* [增加了ES6代码的支持 by @loveky](https://github.com/loveky/Blog/issues/2)
+* [bat upload use 'jdf u -list' by @beanlee](https://github.com/putaoshu/jdf/pull/19)
