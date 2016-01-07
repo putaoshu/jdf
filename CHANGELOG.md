@@ -1,5 +1,13 @@
 ##changelog
 
+### 1.8.3 / 2016-1-7 21:24:00
+* [add]静态服务器增加对字体文件Content-Type的支持
+* [fix]jdf u -debug 支持上传sourceMap到预发服务器，方便调试
+* [bug]fix "imagesSuffix：true" png path bug
+
+### 1.8.2
+* 支持使用ES6语法开发JS
+
 ### 1.8.13 / 2015-11-4 10:50:00
 * jdf widget -install支持依赖自动下载安装
 * jdf output -plain，只解析编译widget、sass，不对文件进行任何替换压缩操作
