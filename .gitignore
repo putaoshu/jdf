@@ -1,5 +1,6 @@
 node_modules
 npm-debug.log
 .svn
+.idea
 .DS_Store
 test/dest
