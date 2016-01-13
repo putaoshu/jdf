@@ -1,6 +1,6 @@
 {
   "name": "jdf",
-  "description": "JD前端开发集成解决方案",
+  "description": "京东前端开发集成解决方案",
   "version": "1.8.3",
   "author": {
     "name": "jdf",
@@ -15,7 +15,7 @@
     "jdf": "bin/jdf"
   },
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.0"
   },
   "main": "index.js",
   "scripts": {
