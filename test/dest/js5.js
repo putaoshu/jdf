@@ -1,0 +1,1 @@
+define(function(){seajs.use("/js/test.js"),seajs.use("/js/test.js",function(){}),seajs.use("/js/test.js",function(){}),seajs.use("/js/test.js",function(){}),seajs.use("/js/test.js",function(){})});

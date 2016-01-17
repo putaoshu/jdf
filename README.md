@@ -10,7 +10,7 @@
 
 ## 关于JDF
 
-* JDF为JD前端开发集成解决方案
+* JDF为京东前端开发集成解决方案
 * 目的是合理，快速和高效的解决前端开发中的工程和项目问题
 * 核心提供了前端开发必备的基础的UI和业务组件，并集成调试，构建，布署，代码生成，文档生成，编辑器插件等一系列开发工具
 * 同时提供了前端模块的下载，预览，发布
@@ -40,11 +40,18 @@
 * 编码统一化，即无论当前文件格式是gbk，gb2312，utf8，utf8-bom，统一输出utf8
 * 多条命令，可满足不同的开发需求
 
+## 会议/视频/QQ群
+
+* 	2014-10-25 D2前端技术论坛@杭州《京东前端工业化实践之路》 [PPT下载](http://vdisk.weibo.com/s/C30SUspJtf4sv) , 慕课[视频1](http://www.imooc.com/video/4679) [视频2](http://www.imooc.com/video/4680)
+* 	JDF技术支持
+	* QQ群号: 305542952
+	* 咚咚群号: 815294
+
 ## 安装使用
 
 *   jdf基于nodejs
 	*   [nodejs安装](http://nodejs.org/download/)
-	*   node版本需要 >=0.8.0
+	*   node版本要求 v0.10.0~v0.12.7
 *   安装jdf
 	* npm install jdf **-g**
 *   安装测试
@@ -119,5 +126,6 @@
 ## 编译器插件
 * [Sublime Text2 插件](https://sublime.wbond.net/packages/Jdf%20-%20Tool)
 
-### update
-2014-12-10 
+## contributor
+* [增加了ES6代码的支持 by @loveky](https://github.com/loveky/Blog/issues/2)
+* [bat upload use 'jdf u -list' by @beanlee](https://github.com/putaoshu/jdf/pull/19)
