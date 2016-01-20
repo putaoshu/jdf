@@ -1,5 +1,8 @@
 ##changelog
 
+### 1.8.4 / 2016-1-20 14:57:00
+* [add]支持nodejs5.0
+
 ### 1.8.3 / 2016-1-7 21:24:00
 * [add]静态服务器增加对字体文件Content-Type的支持
 * [fix]jdf u -debug 支持上传sourceMap到预发服务器，方便调试
