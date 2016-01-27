@@ -1,0 +1,7 @@
+{
+	"host": "ftpServerIp",
+	"user": "anonymous",
+	"password": "anonymous",
+	"projectPath": "product/haimianbaobao",
+	"cdn": "//misc.360buyimg.com"
+}
