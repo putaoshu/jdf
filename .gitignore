@@ -4,3 +4,4 @@ npm-debug.log
 .idea
 .DS_Store
 test/dest
+mocha-test/**/in-files/build
