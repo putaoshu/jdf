@@ -48,7 +48,12 @@ fs.readdirSync(fixtureDir).forEach(function (subDir) {
 				if (pathExists.sync(infilesPath + '/' + outfile)) {
 					var standardContent = fs.readFileSync(outfilesPath + '/' + outfile).toString();
 					var testContent = fs.readFileSync(infilesPath + '/' + outfile).toString();
-					expect(testContent).to.contain(standardContent);
+					standardContent.split(/(\r)?\n/).forEach(function (checkContent) {
+						if (checkContent.trim() == '') {
+							return;
+						}
+						expect(testContent).to.contain(checkContent);
+					})
 				}
 				else {
 					throw('Cannot find output file!');
