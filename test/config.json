@@ -1,0 +1,11 @@
+{
+	"host": "page.jd.com",
+	"user": "arch",
+	"password": "arch",
+	"projectPath": "jdf-test",
+	"output": {
+		"jsUrlReplace": true,
+		"combineWidgetCss": false,
+		"base64": true
+	}
+}

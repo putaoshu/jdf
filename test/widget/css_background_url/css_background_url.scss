@@ -1,0 +1,27 @@
+.test1{
+	background: url(i/test.png);
+}
+
+.test2{
+	background: url(./i/test.png);
+}
+
+.test3{
+	background: url(../i/test.png);
+}
+
+.test4{
+	background: url(css/i/test4.png);
+}
+
+.test5{
+	background: url(/css/i/test5.png);
+}
+
+.test6{
+	background: url(http://misc.360buyimg.com/jdf-test/css/i/test.png);
+}
+
+.test7{
+	background: url(//misc.360buyimg.com/jdf-test/css/i/test.png);
+}

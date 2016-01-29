@@ -1,0 +1,7 @@
+@import "sass_lib";
+
+.test1{
+	width: 100px;
+	height: 100px;
+	@include border-radius(10px);
+}

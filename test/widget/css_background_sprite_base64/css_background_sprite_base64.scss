@@ -1,0 +1,21 @@
+//sprite
+.test1{
+	background: url(i/icon1.png?__sprite);
+}
+
+.test2{
+	background: url(i/icon2.png?__sprite);
+}
+
+.test3{
+	background: url(i/icon3.png?__sprite);
+}
+
+.test4{
+	background: url(i/icon4.png?__sprite);
+}
+
+//base64
+.test5{
+	background: url(i/icon5.png?__base64);
+}

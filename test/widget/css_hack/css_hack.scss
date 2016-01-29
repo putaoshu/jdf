@@ -1,0 +1,39 @@
+.test1{
+	background:none\9\0;
+}
+
+.test2{
+	background:none\9;
+}
+
+.test3{
+	background:none\0;
+}
+
+.test4{
+	*width:100px;
+}
+
+.test5{
+	_width:100px;
+}
+
+.test6{
+	width: 100px;
+}
+
+.test7{
+	-webkit-border-radius: 10px;
+}
+
+.test8{
+	-moz-border-radius: 10px;
+}
+
+.test9{
+	width: expression(eval(document.documentElement.scrollTop))
+}
+
+.test10{
+	* div{width: 100px;}
+}
