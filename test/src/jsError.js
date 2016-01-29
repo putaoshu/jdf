@@ -1,1 +1,0 @@
-function indexInit(){console.log("init done")}define("unit/test/test.js",[],function(n){[],function t(){return"init"}n("unit/lib/lib.js"),n("http://cdn/test.js");return t}),indexInit();
