@@ -3,4 +3,4 @@ npm-debug.log
 .svn
 .idea
 .DS_Store
-test/dest
+test/build
