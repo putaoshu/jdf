@@ -5,6 +5,7 @@
 * [fix]基于一个标准jdf工程，重新整理单元测试
 * [bug]修复若干`jdf output`css背景图片问题
 * [add]支持smarty模版
+* [bug]修复使用less @import抛异常的问题
 
 ### 1.8.3 / 2016-1-7 21:24:00
 * [add]静态服务器增加对字体文件Content-Type的支持
