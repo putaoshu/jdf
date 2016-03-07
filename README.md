@@ -17,28 +17,51 @@
 
 ## 功能介绍
 
-* 跨平台:完美支持windows、mac、linux等系统
+#### 跨平台
+* 完美支持windows、mac、linux三大系统
+
+#### 项目构建
+* 生成标准化的项目文件夹
 * 支持本地，联调，线上三种开发流程
-* 可生成标准化的项目文件夹
-* 项目配置:支持为项目创建一个配置文件，按选项统一编译
-* 错误提示:在编译过程中如果遇到语法的错误，在控制台可以输出错误信息，方便定位代码错误位置
-* 支持公共widget的引用，预览，安装和发布
-* 支持widget编译，内置widget编译引挚
-* 支持volicity模板编译，可供前后端共享模板
-* 支持less，sass实时监听文件，当文件改变时自动执行编译成css
-* 支持给所有静态资源添加CDN域名前缀或后缀戳
-* 支持js/css所引用的链接生成combo格式或者压缩一个文件
-* 支持文件夹或者单独文件css和js文件压缩
-* 支持cmd模块自动提取文件id和dependencies，压缩时保留require关键字
+* 每个项目都拥有一个单独的配置文件，按选项统一编译
+
+#### 模块开发
+* 可快速方便的对模块进行创建，引用，预览，安装和发布
+* 通过积累，可形成完全符合自己业务的模块云服务
+
+#### 模块编译
+* 支持模块编译，内置模块编译引挚
+* 支持将vm和smarty模版编译为html
+* 支持将sass和less编译为css
+* 支持ES6
+
+#### 项目优化
+* 自动将页面中的js、css引用转换成combo请求格式
+* 自动压缩优化js、css、png文件
+
+#### 项目输出
+* 默认给所有静态资源添加CDN域名前缀或后缀戳
+* 支持cmd规范，自动提取文件id和dependencies，压缩时保留require关键字
 * 支持png图片压缩插件，将png24压缩为png8
-* 支持备份当前工程文件
+* 自动生成css雪碧图，并更新background-position属性值
+* 可将小图片一键生成base64编码
+* 文件编码统一化，即无论当前文件格式是gbk，gb2312，utf8，utf8-bom，统一输出utf8
+
+#### 项目联调
+* 一键上传文件到测试服务器，方便其他同学开发预览
+
+#### 本地服务
+* 支持开启本地服务器，方便调试
 * 支持本地静态文件预览，内置本地开发调试服务器，以及当前目录浏览
-* 支持文件监听，保存后文件即可在浏览器即时预览
-* 支持上传到远端服务器，利用文件监听，即实现本地文件保存后可上传至远端服务器
+* 支持实时监听文件，文件被修改时会自动编译成css，并刷新浏览器
+* 实时在控制台输出错误信息，方便定位代码错误
+
+#### 辅助工具
 * 支持html/js/css文件格式化
+* 支持html/js/css代码压缩
 * 支持html/js/css文件lint，代码质量检查
-* 编码统一化，即无论当前文件格式是gbk，gb2312，utf8，utf8-bom，统一输出utf8
-* 多条命令，可满足不同的开发需求
+* 支持chrome浏览器的LiveReload插件
+
 
 ## 会议/视频/QQ群
 
@@ -50,8 +73,8 @@
 ## 安装使用
 
 *   jdf基于nodejs
-	*   [nodejs安装](http://nodejs.org/download/)
-	*   node版本要求 v0.10.0~v0.12.7
+	* [nodejs安装](http://nodejs.org/download/)
+	* node版本要求 v0.10.0及以上
 *   安装jdf
 	* npm install jdf **-g**
 *   安装测试
@@ -122,6 +145,9 @@
 * [velocity基本语法](https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#velocity基本语法)
 * [velocity语法详解](https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#velocity语法详解)
 * [数据源举例](https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#数据源举例)
+
+## smarty模版
+* [smarty模版使用文档](https://github.com/putaoshu/jdf/blob/master/doc/core_smarty.md)
 
 ## 编译器插件
 * [Sublime Text2 插件](https://sublime.wbond.net/packages/Jdf%20-%20Tool)
