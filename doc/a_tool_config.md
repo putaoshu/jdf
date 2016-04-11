@@ -142,7 +142,7 @@ var configJsonFileContent{
 
 	* `"jsRemove"` - 移除js中函数或者方法,比如console,y.log即配置为['console','y.log']
 
-	* `excludeFiles: null` - 输出时想要过滤的文件/文件夹，目前只支持正则式且不要带前后斜杠
+	* `excludeFiles: null` - 输出时想要过滤的文件/文件夹，目前只支持正则表达式且不要带前后斜杠
 
 * `"widget":`
 	* widget预览所依赖的js
