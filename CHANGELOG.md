@@ -1,5 +1,8 @@
 ##changelog
 
+### 1.8.42 / 2016-4-11 16:35:00
+* [add]jdf build support combo url
+
 ### 1.8.4 / 2016-1-20 14:57:00
 * [add]支持nodejs5.0
 * [fix]基于一个标准jdf工程，重新整理单元测试
