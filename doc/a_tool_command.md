@@ -14,12 +14,12 @@ jdf_init
 ├── widget           //页面中用到的所有widget
 </pre>
 
-jdf的详细配置文档，可点击[这里](a_tool_config.html)进行查阅。
+jdf的详细配置文档，可点击[这里](a_tool_config.md)进行查阅。
 
-* `jdf install demo`，下载安装一个[jdf示例](a_tool_example.html)
+* `jdf install demo`，下载安装一个[jdf示例](a_tool_example.md)
 
 ## jdf build
-执行此命令jdf会开启一个[本地服务](a_tool_server.html)用来构建项目，默认端口为`80`。
+执行此命令jdf会开启一个[本地服务](a_tool_server.md)用来构建项目，默认端口为`80`。
 
 * `-open`，在开启本地服务的同时，自动打开`html/index.html`
 * `-css xxx`，把less/sass编译为css
@@ -29,9 +29,9 @@ jdf的详细配置文档，可点击[这里](a_tool_config.html)进行查阅。
 
 输出当前项目到`build`文件夹，所谓的“输出”，指的是jdf会自动做以下几件事情：
 
-* 替换文件中的[widget](core_widget.html)引用标签为实际内容
+* 替换文件中的[widget](core_widget.md)引用标签为实际内容
 * 把less/sass文件编译为css
-* 合并压缩css、js、png文件，使用[cssSprite](a_tool_csssprite.html)技术将小图片合并为一张大图
+* 合并压缩css、js、png文件，使用[cssSprite](a_tool_csssprite.md)技术将小图片合并为一张大图
 * 给css文件中引用的背景图片添加cdn
 
 ---
@@ -63,19 +63,19 @@ jdf的详细配置文档，可点击[这里](a_tool_config.html)进行查阅。
 
 ## jdf server
 
-开启一个[本地服务](a_tool_server.html)用来调试代码，默认端口为`80`
+开启一个[本地服务](a_tool_server.md)用来调试代码，默认端口为`80`
 
 ## jdf lint
 
-html、css、js文件代码质量检查工具，详细用法可点击[这里](a_tool_lint.html)
+html、css、js文件代码质量检查工具，详细用法可点击[这里](a_tool_lint.md)
 
 ## jdf format
 
-html、css、js文件格式化工具，详细用法可点击[这里](a_tool_format.html)
+html、css、js文件格式化工具，详细用法可点击[这里](a_tool_format.md)
 
 ## jdf compress
 
-html、css、js文件压缩工具，详细用法可点击[这里](a_tool_deploy.html)
+html、css、js文件压缩工具，详细用法可点击[这里](a_tool_deploy.md)
 
 ## jdf clean
 
