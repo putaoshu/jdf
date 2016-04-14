@@ -3,6 +3,7 @@
 ### 1.8.42 / 2016-4-11 16:35:00
 * [add]jdf build support combo url
 * [add]support the CMD
+* [add]cssSprite支持rem
 
 ### 1.8.4 / 2016-1-20 14:57:00
 * [add]支持nodejs5.0
