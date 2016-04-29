@@ -39,6 +39,8 @@ config.json需要放在当前项目的根目录下, 详细配置如下：
 
 * `"widgetOutputName": "widget"` - 输出的所有widget合并后的文件名
 
+* `"widgetInputName": []` - 指定需要输出的widget名称
+
 * `"localServerPort": 80` - 本地服务器端口
 
 * `"configJsonFileContent": configJsonFileContent` - jdf配置文件的默认配置内容
