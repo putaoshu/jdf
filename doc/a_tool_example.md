@@ -9,16 +9,14 @@
 目录结构如下
 
 
-	├──jdf_demo
-	|	└──index   
-	|		  └── branches 
-	|		  	   └── jdf_demo_2014
-	|		  	   		├── app //静态文件目录
-	|		  	   		├── html //预览页面html
-	|		  	   		├── widget //模块化目录
-	|		  	   		└── config.json //配置文件
+
+	| 	└── jdf_demo_2014
+	| 		├── app //静态文件目录
+	| 		├── html //预览页面html
+	| 		├── widget //模块化目录
+	| 		└── config.json //配置文件
 				  	   		
-更具体的目录规范请参考 [目录规范](dir.md)
+更具体的目录规范请参考 [目录规范](core_dir_standard.md)
 
 ## 示例演示
 命令行下进入jdf_demo_2014根目录，在命令行下执行
