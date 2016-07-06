@@ -1,5 +1,9 @@
 ##changelog
 
+### 2.0.2 / 2016-7-6 13:50:00
+* [bug]修复无法输出类似icon-null.png的文件名称
+* [add]支持输出font icon
+
 ### 2.0.1 / 2016-4-28 16:39:00
 * [add]cssSprite支持水平合并
 * [add]可以指定需要合并的widget名称
