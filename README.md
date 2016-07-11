@@ -4,7 +4,6 @@
 
 [![NPM](https://nodei.co/npm/jdf.png?downloads=true)](https://nodei.co/npm/jdf/)
 
-![JDF](https://img13.360buyimg.com/da/jfs/t2350/181/2521504593/9048/4c2647fc/570b69efNc03ca3de.png)
 
 ## 更新日志
 
