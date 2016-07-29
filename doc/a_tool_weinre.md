@@ -4,7 +4,7 @@
 今天利用jdf，你可以通过三步轻松的搞定这件事情。
 
 #### 一、需要在本地进行一些简单的设置
-1、在当前项目的`config.json`中打开调试开关
+1、在当前项目的`config.json`中打开调试开关<b style="color: red;">（切记：在调试完页面之后，一定要关闭此开关，然后重新输出项目）</b>
 ```javascript
 "build":{
     "weinre": true //true为打开，false为关闭
