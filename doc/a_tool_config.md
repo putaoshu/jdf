@@ -92,6 +92,8 @@ var configJsonFileContent{
 	```
 
 	* `"cssImagesUrlReplace": true` - css中图片url加cdn替换
+
+	* `"jsUrlReplace": false` - js文件的id和dependences是否添加cdn前缀
 	
 	* `"jsPlace": "insertBody"` - 编译后js文件位置 insertHead|insertBody
 	
