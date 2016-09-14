@@ -11,7 +11,7 @@
 
 ## 关于JDF
 
-* JDF为京东前端开发集成解决方案-Jingdong front-end integrated solution
+* JDF京东前端开发集成解决方案(Jingdong front-end integrated solution)
 * 目的是合理，快速和高效的解决前端开发中的工程和项目问题
 * 核心提供了前端开发必备的基础的UI和业务组件，并集成调试，构建，布署，代码生成，文档生成，编辑器插件等一系列开发工具
 * 同时提供了前端模块的下载，预览，发布
@@ -46,6 +46,7 @@
 * 支持png图片压缩插件，将png24压缩为png8
 * 自动生成css雪碧图，并更新background-position属性值
 * 可将小图片一键生成base64编码
+* 支持图片生成webp格式，并更新相关css图片链接
 * 文件编码统一化，即无论当前文件格式是gbk，gb2312，utf8，utf8-bom，统一输出utf8
 
 #### 项目联调
@@ -136,7 +137,7 @@
 
 ##css组件
 * [css组件](https://github.com/putaoshu/jdf/blob/master/doc/core_css.md#css组件)
-* [ css优化策略](https://github.com/putaoshu/jdf/blob/master/doc/core_css_optimize.md# css优化策略)
+* [css优化策略](https://github.com/putaoshu/jdf/blob/master/doc/core_css_optimize.md#css优化策略)
 
 ##vm模板
 * [设计原则](https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#设计原则)
@@ -152,7 +153,3 @@
 
 ## 编译器插件
 * [Sublime Text2 插件](https://sublime.wbond.net/packages/Jdf%20-%20Tool)
-
-## contributor
-* [增加了ES6代码的支持 by @loveky](https://github.com/loveky/Blog/issues/2)
-* [bat upload use 'jdf u -list' by @beanlee](https://github.com/putaoshu/jdf/pull/19)

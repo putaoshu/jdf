@@ -1,7 +1,7 @@
 {
   "name": "jdf",
   "description": "京东前端开发集成解决方案",
-  "version": "2.0.3",
+  "version": "2.0.7",
   "author": {
     "name": "jdf",
     "email": "putaoshu@126.com"
@@ -31,7 +31,7 @@
   "preferGlobal": true,
   "readmeFilename": "README.md",
   "dependencies": {
-"atropa-jslint": "0.1.2",
+    "atropa-jslint": "0.1.2",
     "babel-core": "^6.3.17",
     "clean-css": "2.1.8",
     "colors": "1.0.2",
