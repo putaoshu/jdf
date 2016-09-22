@@ -7,7 +7,7 @@
 
 ##使用方法
 
-* 安装[chrome插件host文件管理工具](https://chrome.google.com/webstore/detail/kpfmckjjpabojdhlncnccfhkfhbmnjfi) , 此工具支持即时切换hosts，无须浏览多次刷新页面，同时不修改系统的默认hosts，我们的server即基于此规则来取，如果本地没有资源直接用线上来取。
+* 安装[chrome插件host文件管理工具](https://chrome.google.com/webstore/detail/hostadmin/oklkidkfohahankieehkeenbillligdn) , 此工具支持即时切换hosts，无须浏览多次刷新页面，同时不修改系统的默认hosts，我们的server即基于此规则来取，如果本地没有资源直接用线上来取。
 
 * 在任意项目文件夹执行
 
