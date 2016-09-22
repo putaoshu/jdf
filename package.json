@@ -1,7 +1,7 @@
 {
   "name": "jdf",
   "description": "京东前端开发集成解决方案",
-  "version": "2.0.1",
+  "version": "2.0.8",
   "author": {
     "name": "jdf",
     "email": "putaoshu@126.com"
@@ -31,7 +31,7 @@
   "preferGlobal": true,
   "readmeFilename": "README.md",
   "dependencies": {
-"atropa-jslint": "0.1.2",
+    "atropa-jslint": "0.1.2",
     "babel-core": "^6.3.17",
     "clean-css": "2.1.8",
     "colors": "1.0.2",
@@ -54,6 +54,7 @@
     "simple-prompt": "0.2.1",
     "tar": "0.1.19",
     "uglify-js": "2.4.12",
-    "velocityjs": "0.4.3"
+    "velocityjs": "0.4.3",
+    "webp-converter":"^2.1.2"
   }
 }
