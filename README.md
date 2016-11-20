@@ -1,4 +1,4 @@
-# jdf doc
+# jdf
 
 [![NPM version](https://badge.fury.io/js/jdf.png)](http://badge.fury.io/js/jdf)
 
@@ -7,7 +7,13 @@
 
 ## 更新日志
 
+### 2.1.2 / 2016-11-21 00:34:00
+* [add]支持用webpack打包es6，入口参数为build.isEs6 && build.es6Entry
+* [fix]server页面适应移动端访问
+
+#### 更多
 * [changelog](https://github.com/putaoshu/jdf/blob/master/CHANGELOG.md)
+
 
 ## 关于JDF
 
