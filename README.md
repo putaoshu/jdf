@@ -7,8 +7,20 @@
 
 ## 更新日志
 
+### 2.1.4 / 2016-11-25 13:16:00
+* [bug]webpack入口路径fix by cdwangdongwu
+
 ### 2.1.2 / 2016-11-21 00:34:00
-* [add]支持用webpack打包es6，入口参数为build.isEs6 && build.es6Entry
+* [add]支持用webpack打包es6，入口参数为build.isEs6 && build.es6Entry，如下
+	
+		"build":{
+			"isEs6": true,
+			"es6Entry": {
+	        	"index": ["./js/index.js"],
+		        "list": ["./js/list.js"]
+		    }
+	    }
+
 * [fix]server页面适应移动端访问
 
 #### 更多
