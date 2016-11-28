@@ -31,13 +31,18 @@
   "preferGlobal": true,
   "readmeFilename": "README.md",
   "dependencies": {
-    "atropa-jslint": "0.1.2",   
+    "atropa-jslint": "0.1.2",
+    "babel-core": "6.18.2",
+    "babel-loader": "6.2.7 ",
+    "babel-preset-es2015": "6.18.0",
+    "babel-preset-stage-1": "6.16.0",
     "clean-css": "2.1.8",
     "colors": "1.0.2",
     "commander": "2.9.0",
     "csslint": "0.10.0",
     "expect.js": "0.3.1",
     "ftp": "0.3.6",
+    "glob": "^7.1.1",
     "html-minifier": "0.6.9",
     "htmllint": "0.0.7",
     "iconv-lite": "0.4.13",
@@ -51,18 +56,13 @@
     "jsmart": "2.14.0",
     "less": "2.7.1",
     "node-watch": "0.4.1",
+    "nunjucks": "2.4.2",
     "q": "1.0.1",
     "requirejs": "2.3.2",
     "tar": "0.1.19",
     "uglify-js": "2.4.12",
     "velocityjs": "0.4.3",
     "webp-converter": "2.1.4",
-
-    "webpack": "1.13.3",
-    "babel-core": "6.18.2",
-    "babel-loader": "6.2.7 ",
-    "babel-preset-es2015": "6.18.0",
-    "babel-preset-stage-1": "6.16.0",
-    "nunjucks": "2.4.2"
+    "webpack": "1.13.3"
   }
 }
