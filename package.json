@@ -1,7 +1,7 @@
 {
   "name": "jdf",
   "description": "京东前端开发集成解决方案",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "author": {
     "name": "jdf",
     "email": "putaoshu@126.com"
@@ -42,7 +42,7 @@
     "csslint": "0.10.0",
     "expect.js": "0.3.1",
     "ftp": "0.3.6",
-    "glob": "^7.1.1",
+   
     "html-minifier": "0.6.9",
     "htmllint": "0.0.7",
     "iconv-lite": "0.4.13",

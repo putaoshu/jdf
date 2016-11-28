@@ -7,10 +7,13 @@
 
 ## 更新日志
 
-### 2.1.4 / 2016-11-25 13:16:00
+### 2.1.5@20161128
+* [fix]es6项目只处理js文件夹下的入口文件，即配置build.es6Entry，widget目录中的js不会做处理，主要webpack对js文件中require和import暂时只能处理一个
+
+### 2.1.4@20161125
 * [bug]webpack入口路径fix by cdwangdongwu
 
-### 2.1.2 / 2016-11-21 00:34:00
+### 2.1.2@20161121
 * [add]支持用webpack打包es6，入口参数为build.isEs6 && build.es6Entry，如下
 	
 		"build":{
