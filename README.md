@@ -7,6 +7,21 @@
 
 ## 更新日志
 
+### 2.1.6@20161130
+* [add]支持直接上传至linux server，server上需要有php环境和receiver.php，具体配置如下：
+
+		"host": "172.25.35.35",
+		"serverDir": "/export/App/m.jr.jd.com/",
+		"serverType": "linux"
+
+相关上传命令如下：
+
+		jdf u (上传js/css/widget)
+		jdf u -h (上传js/css/widget/html)
+		jdf u -custom ./dist (自定义上传dist文件夹)
+
+* [bug]https://github.com/putaoshu/jdf/pull/38 对commander.js统一处理相关内容做修正
+
 ### 2.1.5@20161128
 * [fix]es6项目只处理js文件夹下的入口文件，即配置build.es6Entry，widget目录中的js不会做处理，主要webpack对js文件中require和import暂时只能处理一个
 
