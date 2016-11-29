@@ -10,15 +10,15 @@
 ### 2.1.6@20161130
 * [add]支持直接上传至linux server，server上需要有php环境和receiver.php，具体配置如下：
 
-		"host": "172.25.35.35",
-		"serverDir": "/export/App/m.jr.jd.com/",
+		"host": "172.xxx.xxx.xxx",
+		"serverDir": "/export/App/xxx.com/",
 		"serverType": "linux"
 
 相关上传命令如下：
 
-		jdf u (上传js/css/widget)
-		jdf u -h (上传js/css/widget/html)
-		jdf u -custom ./dist (自定义上传dist文件夹)
+	jdf u (上传js/css/widget)
+	jdf u -h (上传js/css/widget/html)
+	jdf u -custom ./dist (自定义上传dist文件夹)
 
 * [bug]https://github.com/putaoshu/jdf/pull/38 对commander.js统一处理相关内容做修正
 
