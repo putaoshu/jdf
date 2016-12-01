@@ -7,6 +7,26 @@
 
 ## 更新日志
 
+### 2.1.7@2061130
+* [add]支持css加autoprefixer，具体配置如下：
+	
+	"build":{
+		"autoprefixer": true
+    }
+
+默认options如下，可增加：
+	
+	"build":{
+		"autoprefixerOptions":{
+			"browsers": ["last 2 version", 'Android >= 4.0'],
+        	"cascade": true,
+        	"remove":true
+		}
+    }
+
+autoprefixer官网https://github.com/postcss/autoprefixer#autoprefixer
+browsers可参考https://github.com/ai/browserslist#queries
+
 ### 2.1.6@20161130
 * [add]支持直接上传至linux server，server上需要有php环境和receiver.php，具体配置如下：
 
@@ -110,7 +130,7 @@
 
 *   jdf基于nodejs
 	* [nodejs安装](http://nodejs.org/download/)
-	* node版本要求 v0.10.0及以上
+	* node版本要求 v4.2.6及以上
 *   安装jdf
 	* npm install jdf **-g**
 *   安装测试
