@@ -13,9 +13,9 @@
 
 
 ## 更新日志
-### 2.1.8@20161208
+### 2.1.9@20161208
 
-* [add]增加编译时server用(browser-sync)[https://browsersync.io/](配置jdf.config.build.hasBrowserSync为true)
+* [add]增加编译时server用[browser-sync](https://browsersync.io/)(配置jdf.config.build.hasBrowserSync为true)
 * [add]build时是否在cmd里提示编译信息(配置jdf.config.build.hasCmdLog为true)
 * [fix]build sass/less时报错增加颜色
 * [bug]css编译写内容修正
