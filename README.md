@@ -4,8 +4,24 @@
 
 [![NPM](https://nodei.co/npm/jdf.png?downloads=true)](https://nodei.co/npm/jdf/)
 
+## 关于JDF
+
+* JDF京东前端开发集成解决方案(Jingdong front-end integrated solution)
+* 目的是合理，快速和高效的解决前端开发中的工程和项目问题
+* 核心提供了前端开发必备的基础的UI和业务组件，并集成调试，构建，布署，代码生成，文档生成，编辑器插件等一系列开发工具
+* 同时提供了前端模块的下载，预览，发布
+
 
 ## 更新日志
+### 2.1.8@20161208
+
+* [add]增加编译时server用(browser-sync)[https://browsersync.io/](配置jdf.config.build.hasBrowserSync为true)
+* [add]build时是否在cmd里提示编译信息(配置jdf.config.build.hasCmdLog为true)
+* [fix]build sass/less时报错增加颜色
+* [bug]css编译写内容修正
+* [add]支持命令行下把本地文件夹中所有文件上传至外端机器目录@20161205
+
+		jdf u -c ./localDirxxx /serverDirxxx serverIp
 
 ### 2.1.7@2061130
 * [add]支持css加autoprefixer，具体配置如下：
@@ -38,7 +54,7 @@ browsers可参考https://github.com/ai/browserslist#queries
 
 	jdf u (上传js/css/widget)
 	jdf u -h (上传js/css/widget/html)
-	jdf u -custom ./dist (自定义上传dist文件夹)
+	jdf u -c ./dist (自定义上传dist文件夹)
 
 * [bug]https://github.com/putaoshu/jdf/pull/38 对commander.js统一处理相关内容做修正
 
@@ -64,13 +80,6 @@ browsers可参考https://github.com/ai/browserslist#queries
 #### 更多
 * [changelog](https://github.com/putaoshu/jdf/blob/master/CHANGELOG.md)
 
-
-## 关于JDF
-
-* JDF京东前端开发集成解决方案(Jingdong front-end integrated solution)
-* 目的是合理，快速和高效的解决前端开发中的工程和项目问题
-* 核心提供了前端开发必备的基础的UI和业务组件，并集成调试，构建，布署，代码生成，文档生成，编辑器插件等一系列开发工具
-* 同时提供了前端模块的下载，预览，发布
 
 ## 功能介绍
 

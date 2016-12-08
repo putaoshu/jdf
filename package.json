@@ -1,7 +1,7 @@
 {
   "name": "jdf",
   "description": "京东前端开发集成解决方案",
-  "version": "2.1.6",
+  "version": "2.1.8",
   "author": {
     "name": "jdf",
     "email": "putaoshu@126.com"
@@ -60,7 +60,7 @@
     "uglify-js": "2.4.12",
     "velocityjs": "0.4.3",
     "webp-converter": "2.1.4",
-    
+
     "webpack": "1.13.3",
 
     "babel-core": "6.18.2",
@@ -72,6 +72,8 @@
 
     "autoprefixer":"6.5.3",
     "postcss":"5.2.6",
-    "cssnext":"1.8.4"
+    "cssnext":"1.8.4",
+    
+    "browser-sync":"2.18.2"
   }
 }
