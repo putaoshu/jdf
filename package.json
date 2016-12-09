@@ -34,7 +34,6 @@
     "atropa-jslint": "0.1.2",
     "clean-css": "2.1.8",
     "colors": "1.0.2",
-    "commander": "2.9.0",
     "csslint": "0.10.0",
     "expect.js": "0.3.1",
     "ftp": "0.3.6",
@@ -52,7 +51,6 @@
     "jsmart": "2.14.0",
     "less": "2.7.1",
     "node-watch": "0.4.1",
-    "nunjucks": "2.4.2",
     "q": "1.0.1",
     "requirejs": "2.3.2",
     "simple-prompt": "0.2.1",
@@ -73,6 +71,9 @@
     "autoprefixer":"6.5.3",
     "postcss":"5.2.6",
     "cssnext":"1.8.4",
+
+    "commander": "2.9.0",
+    "nunjucks": "2.4.2",
 
     "browser-sync":"2.18.2"
   }
