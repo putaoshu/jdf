@@ -13,6 +13,36 @@
 
 
 ## 更新日志
+### 2.1.10@20161214
+
+* [add]增加jdf o输出时html和js文件内容替换，比如html中的脚本url或者js中的接口url，即增加配置：
+
+		"output": {
+		  	"htmlContentReplace":[
+			  	{
+					"from":"../../../",
+					"to":"//xxx.com/"
+				},
+				{
+					"from":"xxx.test",
+					"to":"'xxx.com"
+				}
+			],
+			"jsContentReplace":[
+				{
+					"from":"api.xxx.test",
+					"to":"api.xxx.com"
+				}
+			]
+		}
+
+* [add]jdf server运行时提示当前机器ip和缓存文件路径（受browser-sync的启发，特表感谢）
+* [add]提升编译效率，复制文件夹时过滤不需要编译的文件，同时增加配置也可过滤：
+
+		"build":{
+			"excludeFiles": "dist|dist_temp|.svn"
+		}
+
 ### 2.1.9@20161208
 
 * [add]增加编译时server用[browser-sync](https://browsersync.io/)(配置jdf.config.build.hasBrowserSync为true)
