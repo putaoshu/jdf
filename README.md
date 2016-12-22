@@ -13,6 +13,11 @@
 
 
 ## 更新日志
+
+### 2.1.12@20161222
+
+* [bug]fix win7 upload(linux type)
+
 ### 2.1.10@20161214
 
 * [add]增加jdf o输出时html和js文件内容替换，比如html中的脚本url或者js中的接口url，即增加配置：
