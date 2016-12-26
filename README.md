@@ -14,6 +14,18 @@
 
 ## 更新日志
 
+### 2.1.13@20161226
+* [add]移动优先，`jdf build`时默认在命令行下显示二维码，方便手机扫码调试，关闭方法是增加配置：
+
+	"build":{
+        "qrcode": false
+    }
+
+* [bug]cdn为空时js路径替换问题修正
+* [bug]启动多个项目时server端口号不能逐渐累加
+* [fix]jdf output时默认输出html文件夹
+* [fix]修正config.json和template/index.html的引用路径
+
 ### 2.1.12@20161222
 
 * [bug]fix win7 upload(linux type)

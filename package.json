@@ -75,6 +75,8 @@
     "commander": "2.9.0",
     "nunjucks": "2.4.2",
 
-    "browser-sync":"2.18.2"
+    "browser-sync":"2.18.2",
+    
+    "qrcode-terminal":"0.11.0"
   }
 }
