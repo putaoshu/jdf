@@ -1,7 +1,7 @@
 {
   "name": "jdf",
   "description": "京东前端开发集成解决方案",
-  "version": "2.1.17",
+  "version": "2.1.18",
   "author": {
     "name": "jdf",
     "email": "putaoshu@126.com"
@@ -15,7 +15,7 @@
     "jdf": "bin/jdf"
   },
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 4.2.6"
   },
   "main": "index.js",
   "scripts": {

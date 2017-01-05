@@ -1,6 +1,62 @@
-##changelog
+#changelog
 
-### >2.1.0 to [README.md](README.md)
+### 2.1.18@20170105
+* 优化整体JDF帮助文档
+
+### 2.1.13@20161226
+* [add]移动优先，`jdf build`时默认在命令行下显示二维码，方便手机扫码调试，关闭方法是增加配置，即配置`build`中的`qrcode`为`false`
+* [bug]cdn为空时js路径替换问题修正
+* [bug]启动多个项目时server端口号不能逐渐累加
+* [fix]jdf output时默认输出html文件夹
+* [fix]修正config.json和template/index.html的引用路径
+
+### 2.1.12@20161222
+
+* [bug]fix win7 upload(linux type)
+
+### 2.1.10@20161214
+
+* [add]增加jdf o输出时html和js文件内容替换，比如html中的脚本url或者js中的接口url，即配置`output`中的`htmlContentReplace`和`jsContentReplace`
+* [add]jdf server运行时提示当前机器ip和缓存文件路径（受browser-sync的启发，特表感谢）
+* [add]提升编译效率，复制文件夹时过滤不需要编译的文件，同时增加配置也可过滤，即配置`build`的`excludeFiles`
+
+### 2.1.9@20161208
+
+* [add]增加编译时server用[browser-sync](https://browsersync.io/)(配置jdf.config.build.hasBrowserSync为true)
+* [add]build时是否在cmd里提示编译信息(配置jdf.config.build.hasCmdLog为true)
+* [fix]build sass/less时报错增加颜色
+* [bug]css编译写内容修正
+* [add]支持命令行下把本地文件夹中所有文件上传至外端机器目录@20161205
+
+		jdf u -c ./localDirxxx /serverDirxxx serverIp
+
+### 2.1.7@2061130
+* [add]支持css加autoprefixer，即配置`build`中的`autoprefixer`为`true`
+	
+### 2.1.6@20161130
+* [add]支持直接上传至linux server，server上需要有php环境和receiver.php，即增加`serverType`配置为`linux`
+* [bug]https://github.com/putaoshu/jdf/pull/38 对commander.js统一处理相关内容做修正
+
+### 2.1.5@20161128
+* [fix]es6项目只处理js文件夹下的入口文件，即配置build.es6Entry，widget目录中的js不会做处理，主要webpack对js文件中require和import暂时只能处理一个
+
+### 2.1.4@20161125
+* [bug]webpack入口路径fix by cdwangdongwu
+
+### 2.1.2@20161121
+* [add]支持用webpack打包es6，入口参数为build.isEs6 && build.es6Entry，如下
+	
+		"build":{
+			"isEs6": true,
+			"es6Entry": {
+	        	"index": ["./js/index.js"],
+		        "list": ["./js/list.js"]
+		    }
+	    }
+
+* [fix]server页面适应移动端访问
+
+### .............这是一个分界线.............
 
 ### 2.0.7 / 2016-9-14 10:50:00
 * [add]支持图片生成webp格式，并更新相关css图片链接
@@ -447,3 +503,4 @@
 * 初步的远程版本交互和管理
 * 本地server
 * 本地变更的文件或文件夹自动传至本地server文件夹
+

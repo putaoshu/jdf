@@ -8,130 +8,43 @@
 
 * JDF京东前端开发集成解决方案(Jingdong front-end integrated solution)
 * 目的是合理，快速和高效的解决前端开发中的工程和项目问题
-* 核心提供了前端开发必备的基础的UI和业务组件，并集成调试，构建，布署，代码生成，文档生成，编辑器插件等一系列开发工具
+* 核心提供了前端开发必备的基础组件，并集成调试，构建，布署，代码生成，文档生成，编辑器插件等一系列开发工具
 * 同时提供了前端模块的下载，预览，发布
-
-## 调查问卷
-
-如果您是JDF的使用者，麻烦协助我们填写下调查问卷，以便我们把JDF建设的更好，谢谢！ [https://www.wenjuan.com/s/uQjuQz/](https://www.wenjuan.com/s/uQjuQz/ )
 
 ## 更新日志
 
-### 2.1.13@20161226
-* [add]移动优先，`jdf build`时默认在命令行下显示二维码，方便手机扫码调试，关闭方法是增加配置：
-
-	"build":{
-        "qrcode": false
-    }
-
-* [bug]cdn为空时js路径替换问题修正
-* [bug]启动多个项目时server端口号不能逐渐累加
-* [fix]jdf output时默认输出html文件夹
-* [fix]修正config.json和template/index.html的引用路径
-
-### 2.1.12@20161222
-
-* [bug]fix win7 upload(linux type)
-
-### 2.1.10@20161214
-
-* [add]增加jdf o输出时html和js文件内容替换，比如html中的脚本url或者js中的接口url，即增加配置：
-
-		"output": {
-		  	"htmlContentReplace":[
-			  	{
-					"from":"../../../",
-					"to":"//xxx.com/"
-				},
-				{
-					"from":"xxx.test",
-					"to":"'xxx.com"
-				}
-			],
-			"jsContentReplace":[
-				{
-					"from":"api.xxx.test",
-					"to":"api.xxx.com"
-				}
-			]
-		}
-
-* [add]jdf server运行时提示当前机器ip和缓存文件路径（受browser-sync的启发，特表感谢）
-* [add]提升编译效率，复制文件夹时过滤不需要编译的文件，同时增加配置也可过滤：
-
-		"build":{
-			"excludeFiles": "dist|dist_temp|.svn"
-		}
-
-### 2.1.9@20161208
-
-* [add]增加编译时server用[browser-sync](https://browsersync.io/)(配置jdf.config.build.hasBrowserSync为true)
-* [add]build时是否在cmd里提示编译信息(配置jdf.config.build.hasCmdLog为true)
-* [fix]build sass/less时报错增加颜色
-* [bug]css编译写内容修正
-* [add]支持命令行下把本地文件夹中所有文件上传至外端机器目录@20161205
-
-		jdf u -c ./localDirxxx /serverDirxxx serverIp
-
-### 2.1.7@2061130
-* [add]支持css加autoprefixer，具体配置如下：
-	
-	"build":{
-		"autoprefixer": true
-    }
-
-默认options如下，可增加：
-	
-	"build":{
-		"autoprefixerOptions":{
-			"browsers": ["last 2 version", 'Android >= 4.0'],
-        	"cascade": true,
-        	"remove":true
-		}
-    }
-
-autoprefixer官网https://github.com/postcss/autoprefixer#autoprefixer
-browsers可参考https://github.com/ai/browserslist#queries
-
-### 2.1.6@20161130
-* [add]支持直接上传至linux server，server上需要有php环境和receiver.php，具体配置如下：
-
-		"host": "172.xxx.xxx.xxx",
-		"serverDir": "/export/App/xxx.com/",
-		"serverType": "linux"
-
-相关上传命令如下：
-
-	jdf u (上传js/css/widget)
-	jdf u -h (上传js/css/widget/html)
-	jdf u -c ./dist (自定义上传dist文件夹)
-
-* [bug]https://github.com/putaoshu/jdf/pull/38 对commander.js统一处理相关内容做修正
-
-### 2.1.5@20161128
-* [fix]es6项目只处理js文件夹下的入口文件，即配置build.es6Entry，widget目录中的js不会做处理，主要webpack对js文件中require和import暂时只能处理一个
-
-### 2.1.4@20161125
-* [bug]webpack入口路径fix by cdwangdongwu
-
-### 2.1.2@20161121
-* [add]支持用webpack打包es6，入口参数为build.isEs6 && build.es6Entry，如下
-	
-		"build":{
-			"isEs6": true,
-			"es6Entry": {
-	        	"index": ["./js/index.js"],
-		        "list": ["./js/list.js"]
-		    }
-	    }
-
-* [fix]server页面适应移动端访问
-
-#### 更多
 * [changelog](https://github.com/putaoshu/jdf/blob/master/CHANGELOG.md)
 
+## 安装、使用与快速入门
 
-## 功能介绍
+*   jdf基于nodejs
+	* [nodejs安装](http://nodejs.org/download/)
+	* node版本要求 v4.2.6及以上
+*   安装jdf
+	* npm install jdf **-g**
+*   安装测试
+	* 执行 jdf -v 如果出现版本号则说明你已安装成功
+*   请仔细阅读快速入门文档，就可以开始项目开发了
+	* [快速入门](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_develop.md)
+*   更进一步，请阅读核心文档
+	* [目录规范](https://github.com/putaoshu/jdf/blob/master/doc/core_dir_standard.md)
+	* [配置文件](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_config.md)
+	* [命令手册](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_command.md)
+
+## 帮助文档
+* [widget组件](https://github.com/putaoshu/jdf/blob/master/doc/core_widget.md)
+* [js组件](https://github.com/putaoshu/jdf/blob/master/doc/core_js.md)
+* [js前端模板](https://github.com/putaoshu/jdf/blob/master/doc/core_tpl.md)
+* [css组件](https://github.com/putaoshu/jdf/blob/master/doc/core_css.md)
+* [vm模板使用文档](https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md)
+* [smarty模版使用文档](https://github.com/putaoshu/jdf/blob/master/doc/core_smarty.md)
+* [文件格式化](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_format.md)
+* [本地server](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_server.md)
+* [文件lint代码质量检查](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_lint.md)
+* [liveReload自动刷新浏览器](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_livereload.md)
+* [csssprite图片合并](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_csssprite.md)
+
+## 核心功能介绍
 
 #### 跨平台
 * 完美支持windows、mac、linux三大系统
@@ -179,90 +92,5 @@ browsers可参考https://github.com/ai/browserslist#queries
 * 支持html/js/css文件lint，代码质量检查
 * 支持chrome浏览器的LiveReload插件
 
-
-## 会议/视频/QQ群
-
-* 	2014-10-25 D2前端技术论坛@杭州《京东前端工业化实践之路》 [PPT下载](http://vdisk.weibo.com/s/C30SUspJtf4sv) , 慕课[视频1](http://www.imooc.com/video/4679) [视频2](http://www.imooc.com/video/4680)
-
-
-## 安装使用
-
-*   jdf基于nodejs
-	* [nodejs安装](http://nodejs.org/download/)
-	* node版本要求 v4.2.6及以上
-*   安装jdf
-	* npm install jdf **-g**
-*   安装测试
-	* 执行 jdf -v 如果出现版本号则说明你已安装成功
-
-## 集成工具
-* [配置API](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_config.md)
-* [命令手册](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_command.md)
-* [less/sass编译/png压缩/js/css压缩](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_deploy.md)
-* [LiveReload自动刷新浏览器](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_livereload.md)
-* [html/js/css文件lint代码质量检查](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_lint.md)
-* [html/js/css文件格式化](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_format.md)
-* [csssprite图片合并](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_csssprite.md)
-
-## 工具示例
-* [示例安装](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_example.md#示例安装)
-* [示例演示](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_example.md#示例演示)
-
-## 开发流程
-* [新建工程目录](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_develop.md#新建工程目录)
-* [项目开发](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_develop.md#项目开发)
-* [项目本地调试](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_develop.md#项目本地调试)
-* [项目输出](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_develop.md#项目输出)
-* [项目联调和发布](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_develop.md#项目联调和发布)
-* [项目备份](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_develop.md#项目备份)
-* [工作流程对比](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_compare.md)
-
-## 方案规范
-* [项目目录规范](https://github.com/putaoshu/jdf/blob/master/doc/core_dir_standard.md#项目目录规范)
-	* 项目目录
-	* 输出目录
-	* 上线目录
-* [ui和unit组件目录规范](https://github.com/putaoshu/jdf/blob/master/doc/core_dir_standard.md#ui和unit组件目录规范)
-	* ui和unit目录
-* [widget目录规范](https://github.com/putaoshu/jdf/blob/master/doc/core_dir_standard.md#widget目录规范)
-	* widget目录
-	* widget目录细化	
-
-## widget组件
-*  [生态圈](https://github.com/putaoshu/jdf/blob/master/doc/core_widget.md#生态圈)
-*  [widget定义](https://github.com/putaoshu/jdf/blob/master/doc/core_widget.md#widget定义)
-*  [组成形式](https://github.com/putaoshu/jdf/blob/master/doc/core_widget.md#组成形式)
-*  [引用方法](https://github.com/putaoshu/jdf/blob/master/doc/core_widget.md#引用方法)
-*  [开发目录](https://github.com/putaoshu/jdf/blob/master/doc/core_widget.md#开发目录)
-*  [页面输出](https://github.com/putaoshu/jdf/blob/master/doc/core_widget.md#页面输出)
-*  [编译输出](https://github.com/putaoshu/jdf/blob/master/doc/core_widget.md#编译输出)
-*  [相关命令](https://github.com/putaoshu/jdf/blob/master/doc/core_widget.md#相关命令)
-
-## js组件
-* [组件类型](https://github.com/putaoshu/jdf/blob/master/doc/core_js.md#组件类型)
-* [组件写法](https://github.com/putaoshu/jdf/blob/master/doc/core_js.md#组件写法)
-* [引用方法](https://github.com/putaoshu/jdf/blob/master/doc/core_js.md#引用方法)
-* [公共base引用](https://github.com/putaoshu/jdf/blob/master/doc/core_js.md#公共base引用)
-* [页面头尾初始化](https://github.com/putaoshu/jdf/blob/master/doc/core_js.md#页面头尾初始化)
-* [本地调试](https://github.com/putaoshu/jdf/blob/master/doc/core_js.md#本地调试)
-* [最佳实践](https://github.com/putaoshu/jdf/blob/master/doc/core_js.md#最佳实践)
-* [依赖管理方案](https://github.com/putaoshu/jdf/blob/master/doc/core_js_depend.md)
-
-##css组件
-* [css组件](https://github.com/putaoshu/jdf/blob/master/doc/core_css.md#css组件)
-* [css优化策略](https://github.com/putaoshu/jdf/blob/master/doc/core_css_optimize.md#css优化策略)
-
-##vm模板
-* [设计原则](https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#设计原则)
-* [velocity模板引挚](https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#velocity模板引挚)
-* [目录结构](https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#目录结构)
-* [引用方法](https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#引用方法)
-* [velocity基本语法](https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#velocity基本语法)
-* [velocity语法详解](https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#velocity语法详解)
-* [数据源举例](https://github.com/putaoshu/jdf/blob/master/doc/core_vm.md#数据源举例)
-
-## smarty模版
-* [smarty模版使用文档](https://github.com/putaoshu/jdf/blob/master/doc/core_smarty.md)
-
-## 编译器插件
+#### 周边插件
 * [Sublime Text2 插件](https://sublime.wbond.net/packages/Jdf%20-%20Tool)
