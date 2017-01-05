@@ -1,4 +1,4 @@
-# 配置文档
+# 配置文件文档
 
 config.json详细配置如下：
 	
@@ -62,7 +62,7 @@ config.json详细配置如下：
 		* autoprefixer的默认options如下：
 		
 		```javascript
-		"output":{
+		"build":{
 			"autoprefixerOptions":{
 				"browsers": ["last 2 version", 'Android >= 4.0'],
 		    	"cascade": true,

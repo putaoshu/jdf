@@ -7,10 +7,8 @@
 
 ## jdf output (jdf o)
 
-* dirname，输出到自定义的文件夹中，比如`jdf o js`即只输出js文件夹
+* `dirname`，输出到自定义的文件夹中，比如`jdf o js`即只输出js文件夹
 * `-debug`，输出未压缩的css、js、图片文件
-
----
 
 输出当前项目到`build`文件夹，所谓的“输出”，指的是jdf会自动做以下几件事情：
 
@@ -23,7 +21,7 @@
 
 把当前项目上传到测试服务器。直接执行`jdf upload`时，只上传js、css、图片文件到测试服务器。
 
-* dirname，只上传指定的文件夹/文件到测试服务器
+* `dirname`，只上传指定的文件夹/文件到测试服务器
 * `-debug`，上传时不压缩js、css、图片文件，以方便测试
 * `-preview`，只上传html文件到测试服务器
 * `-customw`，自定义上传`jdf u -c ./localDirxxx /serverDirxxx serverIp`即把本地的localDirxxx所有文件夹上传到serverIp的serverDirxxx文件夹中
@@ -51,7 +49,7 @@ html、css、js文件格式化工具，详细用法可点击[这里](a_tool_form
 
 ## jdf compress
 
-html、css、js文件压缩工具，详细用法可点击[这里](a_tool_deploy.md)
+html、css、js文件压缩工具
 
 ## jdf clean
 

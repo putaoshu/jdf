@@ -28,7 +28,7 @@
 	* [快速入门](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_develop.md)
 *   更进一步，请阅读核心文档
 	* [目录规范](https://github.com/putaoshu/jdf/blob/master/doc/core_dir_standard.md)
-	* [配置文件](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_config.md)
+	* [配置文件文档](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_config.md)
 	* [命令手册](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_command.md)
 
 ## 帮助文档
@@ -44,7 +44,7 @@
 * [liveReload自动刷新浏览器](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_livereload.md)
 * [csssprite图片合并](https://github.com/putaoshu/jdf/blob/master/doc/a_tool_csssprite.md)
 
-## 核心功能介绍
+## 核心功能
 
 #### 跨平台
 * 完美支持windows、mac、linux三大系统
