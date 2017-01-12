@@ -1,7 +1,7 @@
 {
   "name": "jdf",
   "description": "京东前端开发集成解决方案",
-  "version": "2.1.18",
+  "version": "2.1.19",
   "author": {
     "name": "jdf",
     "email": "putaoshu@126.com"
@@ -44,7 +44,6 @@
     
     "jdf-images": "1.1.0",
     "jdf-png-native": "1.1.0",
-    "jdf-sass": "1.0.17",
     "jdf-ws": "1.0.3",
 
     "js-beautify": "1.5.4",
@@ -73,10 +72,10 @@
     "cssnext":"1.8.4",
 
     "commander": "2.9.0",
-    "nunjucks": "2.4.2",
 
     "browser-sync":"2.18.2",
     
-    "qrcode-terminal":"0.11.0"
+    "qrcode-terminal":"0.11.0",
+    "node-sass": "4.1.1"
   }
 }

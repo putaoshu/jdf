@@ -83,6 +83,7 @@ config.json详细配置如下：
 	* `"jsRemove"` 移除js中函数或者方法,比如console,y.log即配置为['console','y.log']
 	* `"excludeFiles": null` 输出时想要过滤的文件/文件夹，目前只支持正则表达式且不要带前后斜杠
 	* `"vm":true` 是否开启vm编译
+	* `"compresshtml":false` 是否开启压缩html文件
 	* `"compressJs":true` 是否开启压缩js文件
 	* `"compressCss":true` 是否开启压缩css文件
 	* `"compressPng":true` 是否开启压缩png图片

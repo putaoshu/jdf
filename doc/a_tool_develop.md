@@ -16,7 +16,8 @@ jdf_init文件中里包括css、html、js、widget、config.json，其中config.
 * index.html中任意位置插入`{%widget name="mywidget"%}`
 
 ## 项目调试
-可以通过`jdf build -o` 在浏览器中查看构建后的当前工程
+* 可以通过`jdf build -o` 在浏览器中查看构建后的当前工程
+* mac下用80端口调试页面要先执行`sudo -s`之后再执行`jdf build -o`，因为mac访问访问1024以下端口需要root权限
 
 ## 项目输出
 `jdf output`输出项目文件夹，包括压缩合并css，js，images，静态资源加cdn前缀，同时压缩所有png图片

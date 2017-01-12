@@ -1,7 +1,13 @@
 #changelog
 
+### 2.1.20@20170111
+* [fix]jdf_init修正
+
+### 2.1.19@20170106
+* [fix]jdf-sass不再维护，替换为官方的node-sass
+
 ### 2.1.18@20170105
-* 优化整体JDF帮助文档
+* [fix]优化整体JDF帮助文档
 
 ### 2.1.13@20161226
 * [add]移动优先，`jdf build`时默认在命令行下显示二维码，方便手机扫码调试，关闭方法是增加配置，即配置`build`中的`qrcode`为`false`
@@ -26,9 +32,7 @@
 * [add]build时是否在cmd里提示编译信息(配置jdf.config.build.hasCmdLog为true)
 * [fix]build sass/less时报错增加颜色
 * [bug]css编译写内容修正
-* [add]支持命令行下把本地文件夹中所有文件上传至外端机器目录@20161205
-
-		jdf u -c ./localDirxxx /serverDirxxx serverIp
+* [add]支持命令行下把本地文件夹中所有文件上传至外端机器目录@20161205 `jdf u -c ./localDirxxx /serverDirxxx serverIp`
 
 ### 2.1.7@2061130
 * [add]支持css加autoprefixer，即配置`build`中的`autoprefixer`为`true`

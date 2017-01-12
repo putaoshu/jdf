@@ -10,6 +10,11 @@
 
 此时当前widget文件夹下的vm编译到页面上,js和css也加载至页面上
 
+* 在页面中统一引入，时带相关数据
+
+		{%widget name="test" data='{"name":"my"}'%}
+
+此时在test.vm里就可以通过引用`$name`来取name的值了
 
 * 在页面中单独引入widget的vm文件
 

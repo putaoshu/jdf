@@ -35,7 +35,7 @@
 * `-install xxx`，下载安装widget到本地项目中
 * `-publish xxx`，发布widgt到服务器上
 
-## jdf server
+## jdf server (jdf s)
 
 开启一个[本地服务](a_tool_server.md)用来调试代码，默认端口为`3000`
 
