@@ -1,7 +1,7 @@
 {
   "name": "jdf",
   "description": "京东前端开发集成解决方案",
-  "version": "2.1.20",
+  "version": "2.1.21",
   "author": {
     "name": "jdf",
     "email": "putaoshu@126.com"
@@ -15,11 +15,11 @@
     "jdf": "bin/jdf"
   },
   "engines": {
-    "node": ">= 4.2.6"
+    "node": ">= 4.2.6 <= 6.9.4"
   },
   "main": "index.js",
   "scripts": {
-    "test": "test/test.js"
+    "test": "mocha test/jdf_output.js"
   },
   "repository": {
     "type": "git",
@@ -57,8 +57,6 @@
     "uglify-js": "2.4.12",
     "velocityjs": "0.4.3",
     "webp-converter": "2.1.4",
-
-    "webpack": "1.13.3",
 
     "babel-core": "6.18.2",
     "babel-loader": "6.2.7 ",

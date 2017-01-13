@@ -1,5 +1,9 @@
 #changelog
 
+### 2.1.21@20170113
+* [fix]win7下node v4.2.6 v5.12.0 v6.9.4进行回归测试node-sass和jdf-png-native两个模块，安装正常，node v7.4.0版本暂不支持
+* [fix]移除对webpack打包的支持
+
 ### 2.1.20@20170111
 * [fix]jdf_init修正
 
@@ -48,17 +52,11 @@
 * [bug]webpack入口路径fix by cdwangdongwu
 
 ### 2.1.2@20161121
-* [add]支持用webpack打包es6，入口参数为build.isEs6 && build.es6Entry，如下
-	
-		"build":{
-			"isEs6": true,
-			"es6Entry": {
-	        	"index": ["./js/index.js"],
-		        "list": ["./js/list.js"]
-		    }
-	    }
-
 * [fix]server页面适应移动端访问
+
+### 2.1.2@2016-11-27
+* [fix]server页面适应移动端访问
+* <del>[add]支持用webpack打包es6，入口参数为build.isEs6 && build.es6Entry</del>
 
 ### .............这是一个分界线.............
 
