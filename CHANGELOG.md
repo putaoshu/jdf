@@ -1,5 +1,8 @@
 #changelog
 
+### 2.1.22@20170119
+* [bug]要编译的文件后缀正则fix
+
 ### 2.1.21@20170113
 * [fix]win7下node v4.2.6 v5.12.0 v6.9.4进行回归测试node-sass和jdf-png-native两个模块，安装正常，node v7.4.0版本暂不支持
 * [fix]移除对webpack打包的支持

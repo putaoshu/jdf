@@ -57,7 +57,7 @@ config.json详细配置如下：
 	* `"less":true` 是否开启less编译
 	* `"csslint": false` 是否开启csslint
 	* `"weinre": false` 是否开启移动设备调试
-	* `weinreUrl: "http://123.56.105.44:8080"` 调试移动设备的服务器地址
+	* `"weinreUrl": "http://123.56.105.44:8080"` 调试移动设备的服务器地址
 	* `"autoprefixer": false` 是否开启css加autoprefixer
 		* autoprefixer的默认options如下：
 		
@@ -72,6 +72,9 @@ config.json详细配置如下：
 		```
 		* autoprefixer官网https://github.com/postcss/autoprefixer#autoprefixer
 		* browsers可参考https://github.com/ai/browserslist#queries
+	* `"hasCmdLog":false` build时是否在cmd里提示编译信息
+	* `"hasBrowserSync":false` 用BrowserSync做为server
+	* `"excludeFiles":null` 对要编译的文件/文件夹进行过滤
 * `"output"`
 	* `"cssImagesUrlReplace": true` css中图片url加cdn替换
 	* `"jsUrlReplace": false` js文件的id和dependences是否添加cdn前缀
