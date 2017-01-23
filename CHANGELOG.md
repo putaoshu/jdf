@@ -1,5 +1,8 @@
 #changelog
 
+### 2.1.23@20170123
+* [bug]build.combineWidgetCss bug fix
+
 ### 2.1.22@20170119
 * [bug]要编译的文件后缀正则fix
 
