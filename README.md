@@ -18,7 +18,7 @@
 ## 安装、使用与快速入门
 
 *   jdf依赖nodejs和python
-	* [nodejs安装](http://nodejs.org/download/) node版本要求v4.2.6及以上和V6.9.4以下
+	* [nodejs安装](http://nodejs.org/download/) node版本要求v4.2.6及以上和[V6.9.4](https://nodejs.org/dist/v6.9.4/)以下
 	* [python安装](https://www.python.org/downloads/) python版本无要求
 *   安装jdf
 	* npm install jdf **-g**

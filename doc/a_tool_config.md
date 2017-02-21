@@ -75,6 +75,7 @@ config.json详细配置如下：
 	* `"hasCmdLog":false` build时是否在cmd里提示编译信息
 	* `"hasBrowserSync":false` 用BrowserSync做为server
 	* `"excludeFiles":null` 对要编译的文件/文件夹进行过滤
+	* `"isEs6":true` 对js文件进行es6编译
 * `"output"`
 	* `"cssImagesUrlReplace": true` css中图片url加cdn替换
 	* `"jsUrlReplace": false` js文件的id和dependences是否添加cdn前缀
