@@ -1,7 +1,21 @@
 #changelog
 
+### 2.1.28@20170224
+* [add]区分开发环境，预发环境可用`jdf u -prod`，而线上环境可用`jdf u -pub`，那么html中替换字符串可用`output.htmlContentReplaceInProduce`和`output.htmlContentReplaceInPublish`，js中替换字符串可用`output.jsContentReplaceInProduce`和`output.jsContentReplaceInPublish`，config.json相关配置如下：
+
+		"output":{
+			"htmlContentReplace":[{"from":"mydomain.xxx.com","to":"all.xxx.com"}],
+			"htmlContentReplaceInProduce":[{"from":"mydomain.xxx.com","to":"prod.xxx.com"}],
+			"htmlContentReplaceInPublish":[{"from":"mydomain.xxx.com","to":"publish.xxx.com"}],
+			"jsContentReplace":[{"from":"mydomain.xxx.com","to":"all.xxx.com"}],
+			"jsContentReplaceInProduce":[{"from":"mydomain.xxx.com","to":"prod.xxx.com"}],
+			"jsContentReplaceInPublish":[{"from":"mydomain.xxx.com","to":"pub.xxx.com"}]
+		}
+
+* [fix]jdf o -nc，jdf o -nh，jdf o -preview功能保留，隐藏其入口
+
 ### 2.1.26@20170224
-* [add]vm的数据源可以为外部链接
+* [add]vm的数据源可以为外部链接 {%widget name="test" data='http://xxx.com/xxx.json'%}
 
 ### 2.1.25@20170224
 * [fix]uglify-js升级至2.7.5

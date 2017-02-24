@@ -8,13 +8,17 @@
 
 		{%widget name="test"%}
 
-此时当前widget文件夹下的vm编译到页面上,js和css也加载至页面上
+此时当前widget文件夹下的vm编译到页面上,js和css也加载至页面上,同时json数据会打到vm里
 
-* 在页面中统一引入，时带相关数据
+* 在页面中统一引入时，带相关数据
 
 		{%widget name="test" data='{"name":"my"}'%}
 
 此时在test.vm里就可以通过引用`$name`来取name的值了
+
+* 引入外部链接数据
+
+		{%widget name="test" data='http://xxx.com/xxx.json'%}
 
 * 在页面中单独引入widget的vm文件
 
