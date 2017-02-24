@@ -1,5 +1,11 @@
 #changelog
 
+### 2.1.25@20170224
+* [fix]uglify-js升级至2.7.5
+
+### 2.1.24@20170224
+* [fix]jdf_demo下载地址换成七牛云
+
 ### 2.1.23@20170123
 * [bug]build.combineWidgetCss bug fix
 

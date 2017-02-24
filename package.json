@@ -1,7 +1,7 @@
 {
   "name": "jdf",
   "description": "京东前端开发集成解决方案",
-  "version": "2.1.24",
+  "version": "2.1.25",
   "author": {
     "name": "jdf",
     "email": "putaoshu@126.com"
@@ -54,7 +54,7 @@
     "requirejs": "2.3.2",
     "simple-prompt": "0.2.1",
     "tar": "0.1.19",
-    "uglify-js": "2.4.12",
+    
     "velocityjs": "0.4.3",
     "webp-converter": "2.1.4",
 
@@ -74,6 +74,7 @@
     "browser-sync":"2.18.2",
     
     "qrcode-terminal":"0.11.0",
-    "node-sass": "4.1.1"
+    "node-sass": "4.1.1",
+    "uglify-js": "2.7.5"
   }
 }
