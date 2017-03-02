@@ -1,7 +1,7 @@
 {
   "name": "jdf",
   "description": "京东前端开发集成解决方案",
-  "version": "2.1.30",
+  "version": "2.1.31",
   "author": {
     "name": "jdf",
     "email": "putaoshu@126.com"
@@ -31,42 +31,53 @@
   "preferGlobal": true,
   "readmeFilename": "README.md",
   "dependencies": {
-    "async": "2.1.4",
     "atropa-jslint": "0.1.2",
-    "autoprefixer": "6.5.3",
+    "clean-css": "2.1.8",
+    "colors": "1.0.2",
+    "csslint": "0.10.0",
+    "expect.js": "0.3.1",
+    "ftp": "0.3.6",
+   
+    "html-minifier": "0.6.9",
+    "htmllint": "0.0.7",
+    "iconv-lite": "0.4.13",
+    
+    "jdf-images": "1.1.0",
+    "jdf-png-native": "1.1.0",
+    "jdf-ws": "1.0.3",
+
+    "js-beautify": "1.5.4",
+    "jsmart": "2.14.0",
+    "less": "2.7.1",
+    "node-watch": "0.4.1",
+    "q": "1.0.1",
+    "requirejs": "2.3.2",
+    "simple-prompt": "0.2.1",
+    "tar": "0.1.19",
+    
+    "velocityjs": "0.4.3",
+    "webp-converter": "2.1.4",
+
     "babel-core": "6.18.2",
     "babel-loader": "6.2.7 ",
     "babel-preset-es2015": "6.18.0",
     "babel-preset-stage-1": "6.16.0",
-    "browser-sync": "2.18.2",
-    "clean-css": "2.1.8",
-    "colors": "1.0.2",
+
+    "async":"2.1.4",
+
+    "autoprefixer":"6.5.3",
+    "postcss":"5.2.6",
+    "cssnext":"1.8.4",
+
     "commander": "2.9.0",
-    "csslint": "0.10.0",
-    "cssnext": "1.8.4",
-    "expect.js": "0.3.1",
-    "ftp": "0.3.6",
-    "html-minifier": "0.6.9",
-    "htmllint": "0.0.7",
-    "iconv-lite": "0.4.13",
-    "jdf-images": "1.1.0",
-    "jdf-png-native": "1.1.0",
-    "jdf-ws": "1.0.3",
-    "js-beautify": "1.5.4",
-    "jsmart": "2.14.0",
-    "less": "2.7.1",
+
+    "browser-sync":"2.18.2",
+    
+    "qrcode-terminal":"0.11.0",
     "node-sass": "4.1.1",
-    "node-watch": "0.4.1",
-    "postcss": "5.2.6",
-    "q": "1.0.1",
-    "qrcode-terminal": "0.11.0",
-    "requirejs": "2.3.2",
-    "simple-prompt": "0.2.1",
-    "sync-request": "4.0.1",
-    "tar": "0.1.19",
     "uglify-js": "2.7.5",
-    "update-notifier": "^2.1.0",
-    "velocityjs": "0.4.3",
-    "webp-converter": "2.1.4"
+    "sync-request": "4.0.1",
+
+    "update-notifier": "2.1.0"
   }
 }
