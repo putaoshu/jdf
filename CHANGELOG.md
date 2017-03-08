@@ -1,5 +1,8 @@
 #changelog
 
+### 2.1.34@20170308
+* [bug]win7下`jdf b`二维码显示不全
+
 ### 2.1.28@20170224
 * [add]区分开发环境，预发环境可用`jdf u -prod`，而线上环境可用`jdf u -pub`，那么html中替换字符串可用`output.htmlContentReplaceInProduce`和`output.htmlContentReplaceInPublish`，js中替换字符串可用`output.jsContentReplaceInProduce`和`output.jsContentReplaceInPublish`，config.json相关配置如下：
 
