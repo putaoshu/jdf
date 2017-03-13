@@ -1,5 +1,8 @@
 #changelog
 
+## 2.1.35@20170313
+* [fix]BrowserSync merage `localServerPort` config
+
 ### 2.1.34@20170308
 * [bug]win7下`jdf b`二维码显示不全
 
