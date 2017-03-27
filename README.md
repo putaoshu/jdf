@@ -92,5 +92,8 @@
 * 支持html/js/css文件lint，代码质量检查
 * 支持chrome浏览器的LiveReload插件
 
-#### 周边插件
-* [Sublime Text2 插件](https://sublime.wbond.net/packages/Jdf%20-%20Tool)
+#### 周边下载
+* [JDF demo下载](https://o8tcolhwh.qnssl.com/jdf_demo.tar)
+* [JDF Sublime Text2 插件](https://sublime.wbond.net/packages/Jdf%20-%20Tool)
+* [JDF windows可视化工具JDF_UI.exe](https://o8tcolhwh.qnssl.com/JDF_UI.exe)
+* [JDF组件构建平台示例](https://o8tcolhwh.qnssl.com/JDF_build_platform.gif)
