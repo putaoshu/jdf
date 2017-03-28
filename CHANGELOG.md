@@ -1,5 +1,8 @@
 #changelog
 
+## 2.1.36@20170328
+* [add]增加不进行es6编译的文件配置 `build.isEs6Exclude" 
+
 ## 2.1.35@20170313
 * [fix]BrowserSync merage `localServerPort` config
 
