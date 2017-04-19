@@ -1,12 +1,12 @@
-#js前端模板
+# js前端模板
 
-##变量
+## 变量
 
 	var data = {name: 'lilei'}; 
 	var str = "<h3><%=name%></h3>"; 
 	console.log($.tpl(str, data)); // => <h3>lilei</h3>
 
-##循环
+## 循环
 
 	var data2 = {
 		title:'listArray',

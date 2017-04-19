@@ -1,6 +1,6 @@
-#csssprite图片合并
+# csssprite图片合并
 
-##使用说明
+## 使用说明
 ### 默认单位为px
 * 非常简单，只需要在css文件中对要合并的图片路径增加?__sprite后缀即可，比如
 
@@ -69,24 +69,24 @@ html {
 }
 ```
 
-##切图说明
+## 切图说明
 * 把psd中图片所有icon类小图切换，在css中设置好background-position，在相对应图片后面增加?__sprite后缀
 
-##配置说明
+## 配置说明
 * 默认为开启状态，可以通过config.json的{{output.csssprite}}键值设置为false进行关闭
 * 图片之间上下间距可以通过config.json的{{output.cssspriteMargin}}键值设置
 
-##特性说明
+## 特性说明
 * 支持的图片格式：png，jpg，png输出png24格式，IE6的png24图片需要单独处理
 * 支持no-repeat，background-position可自由设置
 * 后续支持repeat-x，repeat-y
 
-##原理解析
+## 原理解析
 * 分析css文件内容，取出带有?__sprite的图片路径，同时对此background的backgroud-repeat、background-position进行记录
 * 取出所有图片，依靠backgroud-repeat、background-position进行图片合并，并生成合并的新图片
 * 把css文件所有sprite图片路径替换成合并的新图片路径
 
-##解析css
+## 解析css
 * 利用正则实现一个简单的css语法解析器，可把css内容解析为
 
 <table>
@@ -99,5 +99,5 @@ html {
 	<tr><td>height</td> <td>number</td> <td>图片的高度</td> </tr>
 </table>
 
-##系统支持
+## 系统支持
 win，mac，linux

@@ -1,12 +1,12 @@
-#html/js/css文件lint代码质量检查
+# html/js/css文件lint代码质量检查
 
-##使用说明
+## 使用说明
 
 * 方法1：在当前目录中，使用 `jdf lint` 或者 `jdf lint ./test` 可直接检查当前目录或者指定目录下的所有文件。
 * 方法2：在当前目录中，使用 `jdf lint test.html` 可直接检查指定的文件。
 * 方法3：可直接使用 `jdf lint http://www.jd.com` 检查在线页面。
 
-##检查html文件
+## 检查html文件
 
 `jdf lint` 可以快速检测html文件中代码的书写错误，比如 `test.html` 的内容如下：
 
@@ -30,7 +30,7 @@
 * 问题1：页面中有两个元素使用了重复的id
 * 问题2：`input` 元素的 `type` 属性值没有加双引号
 
-##检查css文件
+## 检查css文件
 
 `jdf lint` 可以快速检测css的书写错误，比如 `btn.css` 内容如下：
     
@@ -58,7 +58,7 @@
 
 注意：less/scss文件需要编译成css后才能检测，否则提示会不准确。
 
-##检查js文件
+## 检查js文件
 
 `jdf lint` 可快速检测js代码的书写错误，比如 `test.js` 的内容如下：
 
@@ -81,13 +81,13 @@
 * 问题1：在代码 `var a = 1` 结尾处没有加分号
 * 问题2：a变量只是被定义了，却没有被使用
 
-##注意事项
+## 注意事项
 
 * 此工具会自动**递归检查**指定目录中所有的html、vm、tpl、css、sass、less、js文件，其它文件会自动忽略。
 * 在使用 `jdf lint` 检查在线页面时，url前必须要加上http。
 * 默认csslint功能是关闭状态，可以通过config.json的{{build.csslint}}键值设置为true进行开启，这样在 `jdf build` 下会自动检测
 
-##原理浅析
+## 原理浅析
 
 csslint可用于检查CSS取值和潜在问题，使用了Nicholas大神的npm模块parser-lib作为css解析器，并按照parser-lib给出的API来编写检查规则。
 csslint的每一个规则都是通过监听parser-lib给出的事件来进行相应的判断：

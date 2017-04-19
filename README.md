@@ -18,7 +18,7 @@
 ## 安装、使用与快速入门
 
 *   jdf依赖nodejs和python
-	* [nodejs安装](http://nodejs.org/download/) node版本要求v4.2.6及以上和[V6.9.4](https://nodejs.org/dist/v6.9.4/)以下
+	* [nodejs安装](http://nodejs.org/download/) node版本要求v4.2.6及以上和[v6.9.4](https://nodejs.org/dist/v6.9.4/)以下
 	* [python安装](https://www.python.org/downloads/) python版本无要求
 *   安装jdf
 	* npm install jdf **-g**
@@ -78,7 +78,7 @@
 * 文件编码统一化，即无论当前文件格式是gbk，gb2312，utf8，utf8-bom，统一输出utf8
 
 #### 项目联调
-* 一键上传文件到测试服务器，方便其他同学开发预览
+* 一键上传文件到测试服务器，方便开发预览
 
 #### 本地服务
 * 支持开启本地服务器，方便调试
@@ -94,6 +94,6 @@
 
 #### 周边下载
 * [JDF demo下载](https://o8tcolhwh.qnssl.com/jdf_demo.tar)
-* [JDF Sublime Text2 插件](https://sublime.wbond.net/packages/Jdf%20-%20Tool)
-* [JDF windows可视化工具JDF_UI.exe](https://o8tcolhwh.qnssl.com/JDF_UI.exe)
+* [JDF windows可视化工具JDF_UI下载](https://o8tcolhwh.qnssl.com/JDF_UI.exe)
+* [JDF Sublime Text2 插件安装](https://sublime.wbond.net/packages/Jdf%20-%20Tool)
 * [JDF组件构建平台示例](https://o8tcolhwh.qnssl.com/JDF_build_platform.gif)

@@ -1,11 +1,11 @@
-#html/js/css文件格式化
+# html/js/css文件格式化
 
-##使用说明
+## 使用说明
 
 * 方法1：在当前目录中，使用 `jdf format` 或者 `jdf format ./test` 可直接格式化当前目录或者指定目录下的所有文件。
 * 方法2：在当前目录中，使用 `jdf format test.html` 可直接格式化指定的文件。
 
-##使用示例
+## 使用示例
 
 `jdf format` 可快速格式化文件中的代码格式，比如 `test.html` 的内容如下：
 
@@ -57,7 +57,7 @@
         </body>
         </html>
 
-##注意事项
+## 注意事项
 
 * 此工具会自动**递归格式化**指定目录中所有的html、vm、tpl、css、sass、less、js文件，其它文件会自动忽略，请谨慎指定目录。
 * 此工具会同时格式化html文档中包含的所有html、css、js代码。
