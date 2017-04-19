@@ -42,55 +42,55 @@ describe('##jdf output...', function(){
 		});
 	});
 
-	describe('#css_background_url', function(){
-		css_background_url.forEach(function(item, index){
-			it('test' + (index + 1) + ' should equal', function(){
-				var css_result = css_background_url[index];
+	// describe('#css_background_url', function(){
+	// 	css_background_url.forEach(function(item, index){
+	// 		it('test' + (index + 1) + ' should equal', function(){
+	// 			var css_result = css_background_url[index];
 				
-				if(css_result){
-					expect(css_background_url_build).to.contain(css_result);
-				}
-			});
-		});
-	});
+	// 			if(css_result){
+	// 				expect(css_background_url_build).to.contain(css_result);
+	// 			}
+	// 		});
+	// 	});
+	// });
 
-	describe('#css_background_sprite_base64', function(){
-		css_background_sprite_base64.forEach(function(item, index){
-			it('test' + (index + 1) + ' should equal', function(){
-				var css_result = css_background_sprite_base64[index];
+	// describe('#css_background_sprite_base64', function(){
+	// 	css_background_sprite_base64.forEach(function(item, index){
+	// 		it('test' + (index + 1) + ' should equal', function(){
+	// 			var css_result = css_background_sprite_base64[index];
 				
-				if(css_result){
-					setTimeout(function(){
-						expect(css_background_sprite_base64_build).to.contain(css_result);
-					}, 200)
-				}
-			});
-		});
-	});
+	// 			if(css_result){
+	// 				setTimeout(function(){
+	// 					expect(css_background_sprite_base64_build).to.contain(css_result);
+	// 				}, 200)
+	// 			}
+	// 		});
+	// 	});
+	// });
 
-	describe('#css_hack', function(){
-		css_hack.forEach(function(item, index){
-			it('test' + (index + 1) + ' should equal', function(){
-				var css_result = css_hack[index];
+	// describe('#css_hack', function(){
+	// 	css_hack.forEach(function(item, index){
+	// 		it('test' + (index + 1) + ' should equal', function(){
+	// 			var css_result = css_hack[index];
 				
-				if(css_result){
-					expect(css_hack_build).to.contain(css_result);
-				}
-			});
-		});
-	});
+	// 			if(css_result){
+	// 				expect(css_hack_build).to.contain(css_result);
+	// 			}
+	// 		});
+	// 	});
+	// });
 
-	describe('#js_cmd_define', function(){
-		it('add cdn and project path for dependence', function(){
-			expect(js_cmd_define_build).to.contain(js_cmd_define);
-		})
-	});
+	// describe('#js_cmd_define', function(){
+	// 	it('add cdn and project path for dependence', function(){
+	// 		expect(js_cmd_define_build).to.contain(js_cmd_define);
+	// 	})
+	// });
 
-	describe('#js_seajs_use', function(){
-		it('add cdn and project path for seajs use', function(){
-			expect(js_seajs_use_build).to.contain(js_seajs_use);
-		})
-	});
+	// describe('#js_seajs_use', function(){
+	// 	it('add cdn and project path for seajs use', function(){
+	// 		expect(js_seajs_use_build).to.contain(js_seajs_use);
+	// 	})
+	// });
 
 	describe('#sass_import_lib', function(){
 		it('import lib in sass file', function(){

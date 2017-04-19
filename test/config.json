@@ -4,6 +4,7 @@
 	"password": "arch",
 	"projectPath": "jdf-test",
 	"output": {
+		"hasBanner":0,
 		"jsUrlReplace": true,
 		"combineWidgetCss": false,
 		"base64": true

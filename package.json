@@ -15,11 +15,11 @@
     "jdf": "bin/jdf"
   },
   "engines": {
-    "node": ">= 4.2.6 <= 6.9.4"
+    "node": ">= 4.2.6"
   },
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/jdf_output.js"
+    "test": "mocha test/index.js"
   },
   "repository": {
     "type": "git",
@@ -78,5 +78,9 @@
     "sync-request": "4.0.1",
 
     "update-notifier": "2.1.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "3.2.0"
   }
 }
