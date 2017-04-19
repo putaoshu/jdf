@@ -1,5 +1,13 @@
 #changelog
 
+## 2.1.40@20170419
+* [fix]不加cdn前缀 也不加projectPath 即保持默认的路径 的输出
+
+## 2.1.39@20170418
+* 增加输出的html文件夹名称配置即  
+
+		"outputHtmlDir": ""
+
 ## 2.1.36@20170328
 * [add]增加不进行es6编译的文件配置 `build.isEs6Exclude" 
 

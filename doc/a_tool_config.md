@@ -12,6 +12,7 @@ config.json详细配置如下：
 * `"widgetDir": "widget"` widget文件夹名称
 * `"buildDirName": "html"` 编译的html文件夹名称
 * `"outputDirName": "build"` 输出文件夹名称
+* `"outputHtmlDir": null` 输出的html文件夹名称
 * `"outputCustom": null` 自定义输出文件夹
 * `"widgetOutputName": "widget"` 输出的所有widget合并后的文件名
 * `"widgetInputName": []` 指定需要输出的widget名称
