@@ -1,7 +1,6 @@
 # jdf
 
-[![NPM version](https://badge.fury.io/js/jdf.png)](http://badge.fury.io/js/jdf)
-
+[![NPM version](https://badge.fury.io/js/jdf.png)](http://badge.fury.io/js/jdf) [![Build Status](https://api.travis-ci.org/putaoshu/jdf.svg?branch=master)](https://travis-ci.org/putaoshu/jdf)
 [![NPM](https://nodei.co/npm/jdf.png?downloads=true)](https://nodei.co/npm/jdf/)
 
 ## 关于JDF
