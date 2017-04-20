@@ -6,10 +6,14 @@
 
 ## 关于JDF
 
-* JDF京东前端开发集成解决方案(Jingdong front-end integrated solution)
-* 目的是合理，快速和高效的解决前端开发中的工程和项目问题
-* 核心提供了前端开发必备的基础组件，并集成调试，构建，布署，代码生成，文档生成，编辑器插件等一系列开发工具
-* 同时提供了前端模块的下载，预览，发布
+* JDF京东前端开发集成解决方案（Jingdong front-end integrated solution）
+* 目的是合理、快速和高效的解决前端开发中的工程和项目问题，主要提供了：
+* 前端命令行工具：集调试、构建、布署为一体
+* 前端模块：下载、预览、发布
+* 前端开发流程：项目构建、编译、输出、联调、上线
+* 前端组件：UI组件和业务组件（内网开源）
+* 前端文档：编码规范、开发规范、组件和工具文档
+* 前端周边扩展：代码文档和示例自动生成工具、代码编辑器插件、可视化工具等
 
 ## 更新日志
 
@@ -92,8 +96,9 @@
 * 支持html/js/css文件lint，代码质量检查
 * 支持chrome浏览器的LiveReload插件
 
-#### 周边下载
+#### 周边扩展
 * [JDF demo下载](https://o8tcolhwh.qnssl.com/jdf_demo.tar)
 * [JDF windows可视化工具JDF_UI下载](https://o8tcolhwh.qnssl.com/JDF_UI.exe)
 * [JDF Sublime Text2 插件安装](https://sublime.wbond.net/packages/Jdf%20-%20Tool)
 * [JDF组件构建平台示例](https://o8tcolhwh.qnssl.com/JDF_build_platform.gif)
+* [JDD文档快速生成工具](https://github.com/putaoshu/jdd)
