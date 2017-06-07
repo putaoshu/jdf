@@ -102,3 +102,6 @@
 * [JDF Sublime Text2 插件安装](https://sublime.wbond.net/packages/Jdf%20-%20Tool)
 * [JDF组件构建平台示例](https://o8tcolhwh.qnssl.com/JDF_build_platform.gif)
 * [JDD文档快速生成工具](https://github.com/putaoshu/jdd)
+
+#### QQ群
+* JDF官方支持群 305542952
