@@ -105,3 +105,7 @@
 
 #### QQ群
 * JDF官方支持群 305542952
+
+#### 捐增支持（支付宝）
+* [![捐增支持](http://img12.360buyimg.com/uba/jfs/t7039/155/7364878/28421/e34519ee/5971c075N7e8bdbe3.png)](http://img12.360buyimg.com/uba/jfs/t7039/155/7364878/28421/e34519ee/5971c075N7e8bdbe3.png)
+
