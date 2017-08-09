@@ -77,7 +77,10 @@
     "uglify-js": "2.7.5",
     "sync-request": "4.0.1",
 
-    "update-notifier": "2.1.0"
+    "update-notifier": "2.1.0",
+
+    "archiver": "2.0.0"
+
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
