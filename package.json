@@ -79,8 +79,8 @@
 
     "update-notifier": "2.1.0",
 
-    "archiver": "2.0.0"
-
+    "archiver": "2.0.0",
+    "shelljs": "0.7.8"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
