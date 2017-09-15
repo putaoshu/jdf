@@ -1,5 +1,25 @@
 # changelog
 
+## 2.1.44@20170915
+* [add]增加jdf cp命令
+
+		output: {
+			"cpDirPath": [
+				{
+					"userRoot": "", // 默认取用户目录
+					"sourcePath": "", // 源目录
+					"targetPath": "" // 目标目录
+				}
+			]
+		}
+
+## 2.1.43@20170809
+* [add]增加zip打包output文件夹 
+
+		output: {
+			"zipOutput": true
+		}
+
 ## 2.1.40@20170419
 * [fix]不加cdn前缀 也不加projectPath 即保持默认的路径 的输出
 
