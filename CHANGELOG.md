@@ -1,5 +1,14 @@
 # changelog
 
+## 2.1.50@20180702
+* [add] 增加配置，过滤不需要添加js文件id和依赖的文件或文件夹
+
+		build: {
+			"isEs6Exclude":"aa\/lib\/|xxx.js"
+		}
+		
+* [add] node-sass更新到最新版本，删除jdf-png-native依赖
+
 ## 2.1.44@20170915
 * [add]增加jdf cp命令
 
