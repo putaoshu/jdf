@@ -73,7 +73,7 @@
     "browser-sync":"2.18.2",
     
     "qrcode-terminal":"0.11.0",
-    "node-sass": "^4.1.1",
+    "node-sass": "^4.9.0",
     "uglify-js": "2.7.5",
     "sync-request": "4.0.1",
 
