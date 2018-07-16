@@ -1,7 +1,7 @@
 {
   "name": "jdf",
   "description": "Jingdong front-end integrated solution",
-  "version": "2.1.50",
+  "version": "2.1.51",
   "author": {
     "name": "jdf",
     "email": "putaoshu@126.com"
@@ -80,7 +80,9 @@
     "update-notifier": "2.1.0",
 
     "archiver": "2.0.0",
-    "request": "2.83.0"
+    "request": "2.83.0",
+
+    "git-clone": "^0.1.0"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
