@@ -1,7 +1,7 @@
 {
   "name": "jdf",
   "description": "Jingdong front-end integrated solution",
-  "version": "2.1.51",
+  "version": "2.1.52",
   "author": {
     "name": "jdf",
     "email": "putaoshu@126.com"
@@ -41,8 +41,8 @@
     "html-minifier": "0.6.9",
     "htmllint": "0.0.7",
     "iconv-lite": "0.4.13",
-    
-    "jdf-images": "1.1.0",
+
+    "images": "^3.0.2",
     "jdf-png-native": "1.1.0",
     "jdf-ws": "1.0.3",
 
