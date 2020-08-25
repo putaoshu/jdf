@@ -32,7 +32,7 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "atropa-jslint": "0.1.2",
-    "clean-css": "2.1.8",
+    "clean-css": "4.2.1",
     "colors": "1.0.2",
     "csslint": "0.10.0",
     "expect.js": "0.3.1",
