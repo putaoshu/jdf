@@ -97,15 +97,11 @@
 * 支持chrome浏览器的LiveReload插件
 
 #### 周边扩展
-* [JDF demo下载](https://o8tcolhwh.qnssl.com/jdf_demo.tar)
-* [JDF windows可视化工具JDF_UI下载](https://o8tcolhwh.qnssl.com/JDF_UI.exe)
+* [JDF demo下载](https://qn.kabuyun.com/jdf_demo.tar)
+* [JDF windows可视化工具JDF_UI下载](https://qn.kabuyun.com/JDF_UI.exe)
 * [JDF Sublime Text2 插件安装](https://sublime.wbond.net/packages/Jdf%20-%20Tool)
-* [JDF组件构建平台示例](https://o8tcolhwh.qnssl.com/JDF_build_platform.gif)
+* [JDF组件构建平台示例](https://qn.kabuyun.com/JDF_build_platform.gif)
 * [JDD文档快速生成工具](https://github.com/putaoshu/jdd)
 
 #### QQ群
 * JDF官方支持群 305542952
-
-#### 捐助支持
-* [![捐助支持](http://img12.360buyimg.com/uba/jfs/t7039/155/7364878/28421/e34519ee/5971c075N7e8bdbe3.png)](http://img12.360buyimg.com/uba/jfs/t7039/155/7364878/28421/e34519ee/5971c075N7e8bdbe3.png)
-
